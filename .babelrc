@@ -1,6 +1,20 @@
 {
+  "plugins": [
+    "babel-plugin-transform-decorators-legacy",
+    "transform-class-properties",
+    "transform-async-to-generator",
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
+  ],
   "presets": [
     "es2015",
     "stage-0"
+  ],
+  "ignore": [
+    "node_modules/**/*.js",
+    "build/**/*.js",
+    "wallaby.js"
   ]
 }
