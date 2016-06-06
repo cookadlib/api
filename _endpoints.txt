@@ -34,6 +34,688 @@ https://kgsearch.googleapis.com/v1/entities:search?key=AIzaSyDgKIwWkoMwhRb6qwv2w
   ]
 }
 
+http://bie.ala.org.au/ws/search.json?q=lemon
+{
+  "searchResults": {
+    "pageSize": 10,
+    "startIndex": 0,
+    "totalRecords": 177,
+    "sort": "score",
+    "dir": "desc",
+    "status": "OK",
+    "facetResults": [
+      {
+        "fieldName": "idxtype",
+        "fieldResult": [
+          {
+            "label": "TAXON",
+            "count": 177,
+            "fieldValue": "TAXON"
+          }
+        ]
+      },
+      {
+        "fieldName": "australian_s",
+        "fieldResult": [
+          {
+            "label": "recorded",
+            "count": 152,
+            "fieldValue": "recorded"
+          }
+        ]
+      },
+      {
+        "fieldName": "speciesGroup",
+        "fieldResult": [
+          {
+            "label": "Animals",
+            "count": 51,
+            "fieldValue": "Animals"
+          },
+          {
+            "label": "Plants",
+            "count": 49,
+            "fieldValue": "Plants"
+          },
+          {
+            "label": "Birds",
+            "count": 20,
+            "fieldValue": "Birds"
+          },
+          {
+            "label": "Arthropods",
+            "count": 13,
+            "fieldValue": "Arthropods"
+          },
+          {
+            "label": "Fish",
+            "count": 12,
+            "fieldValue": "Fish"
+          },
+          {
+            "label": "Molluscs",
+            "count": 3,
+            "fieldValue": "Molluscs"
+          },
+          {
+            "label": "Reptiles",
+            "count": 1,
+            "fieldValue": "Reptiles"
+          }
+        ]
+      },
+      {
+        "fieldName": "speciesSubgroup",
+        "fieldResult": [
+          {
+            "label": "Perching Birds",
+            "count": 19,
+            "fieldValue": "Perching Birds"
+          },
+          {
+            "label": "Asco's",
+            "count": 17,
+            "fieldValue": "Asco's"
+          },
+          {
+            "label": "Perch-like Fishes",
+            "count": 8,
+            "fieldValue": "Perch-like Fishes"
+          },
+          {
+            "label": "Ants",
+            "count": 3,
+            "fieldValue": "Ants"
+          },
+          {
+            "label": "Beetles",
+            "count": 2,
+            "fieldValue": "Beetles"
+          },
+          {
+            "label": "Butterflies, Moths",
+            "count": 2,
+            "fieldValue": "Butterflies, Moths"
+          },
+          {
+            "label": "Flatfishes",
+            "count": 2,
+            "fieldValue": "Flatfishes"
+          },
+          {
+            "label": "Flies",
+            "count": 2,
+            "fieldValue": "Flies"
+          },
+          {
+            "label": "Gastropods, Slugs, Snails",
+            "count": 2,
+            "fieldValue": "Gastropods, Slugs, Snails"
+          },
+          {
+            "label": "Aphids",
+            "count": 1,
+            "fieldValue": "Aphids"
+          },
+          {
+            "label": "Basidio's",
+            "count": 1,
+            "fieldValue": "Basidio's"
+          },
+          {
+            "label": "Ground Sharks",
+            "count": 1,
+            "fieldValue": "Ground Sharks"
+          },
+          {
+            "label": "Lizards, Snakes",
+            "count": 1,
+            "fieldValue": "Lizards, Snakes"
+          },
+          {
+            "label": "Mussels, Clams",
+            "count": 1,
+            "fieldValue": "Mussels, Clams"
+          },
+          {
+            "label": "Scorpion Fishes, Sculpins",
+            "count": 1,
+            "fieldValue": "Scorpion Fishes, Sculpins"
+          },
+          {
+            "label": "Zygomycetes",
+            "count": 1,
+            "fieldValue": "Zygomycetes"
+          }
+        ]
+      },
+      {
+        "fieldName": "rank",
+        "fieldResult": [
+          {
+            "label": "species",
+            "count": 113,
+            "fieldValue": "species"
+          },
+          {
+            "label": "subspecies",
+            "count": 34,
+            "fieldValue": "subspecies"
+          },
+          {
+            "label": "genus",
+            "count": 9,
+            "fieldValue": "genus"
+          },
+          {
+            "label": "cultivar",
+            "count": 7,
+            "fieldValue": "cultivar"
+          },
+          {
+            "label": "subgenus",
+            "count": 7,
+            "fieldValue": "subgenus"
+          },
+          {
+            "label": "family",
+            "count": 2,
+            "fieldValue": "family"
+          },
+          {
+            "label": "order",
+            "count": 2,
+            "fieldValue": "order"
+          },
+          {
+            "label": "unranked",
+            "count": 1,
+            "fieldValue": "unranked"
+          },
+          {
+            "label": "variety",
+            "count": 1,
+            "fieldValue": "variety"
+          }
+        ]
+      },
+      {
+        "fieldName": "conservationStatusAUS",
+        "fieldResult": [
+          {
+            "label": "Vulnerable",
+            "count": 1,
+            "fieldValue": "Vulnerable"
+          }
+        ]
+      },
+      {
+        "fieldName": "conservationStatusNSW",
+        "fieldResult": [
+          {
+            "label": "Endangered",
+            "count": 3,
+            "fieldValue": "Endangered"
+          }
+        ]
+      },
+      {
+        "fieldName": "conservationStatusQLD",
+        "fieldResult": [
+          {
+            "label": "Near Threatened",
+            "count": 1,
+            "fieldValue": "Near Threatened"
+          }
+        ]
+      },
+      {
+        "fieldName": "conservationStatusSA",
+        "fieldResult": [
+          {
+            "label": "Rare",
+            "count": 2,
+            "fieldValue": "Rare"
+          },
+          {
+            "label": "Vulnerable",
+            "count": 1,
+            "fieldValue": "Vulnerable"
+          }
+        ]
+      },
+      {
+        "fieldName": "conservationStatusTAS",
+        "fieldResult": [
+          {
+            "label": "Rare",
+            "count": 2,
+            "fieldValue": "Rare"
+          },
+          {
+            "label": "Endangered",
+            "count": 1,
+            "fieldValue": "Endangered"
+          }
+        ]
+      },
+      {
+        "fieldName": "conservationStatusVIC",
+        "fieldResult": [
+          {
+            "label": "Vulnerable",
+            "count": 3,
+            "fieldValue": "Vulnerable"
+          },
+          {
+            "label": "Rare",
+            "count": 1,
+            "fieldValue": "Rare"
+          }
+        ]
+      },
+      {
+        "fieldName": "conservationStatusWA",
+        "fieldResult": [
+          {
+            "label": "Critically Endangered",
+            "count": 1,
+            "fieldValue": "Critically Endangered"
+          }
+        ]
+      }
+    ],
+    "query": " (commonName:lemon) OR  text:\"lemon\" OR  (scientificNameText:lemon) OR  (name_complete:lemon) OR  concat_name:\"lemon\" OR  (stopped_common_name:lemon) OR  exact_text:\"lemon\"^100000000000",
+    "results": [
+      {
+        "guid": "urn:lsid:biodiversity.org.au:apni.taxon:270830",
+        "name": "Citrus x limon",
+        "idxType": "TAXON",
+        "score": 7.5072956,
+        "parentGuid": "urn:lsid:biodiversity.org.au:apni.taxon:379840",
+        "commonName": "Lemon",
+        "nameComplete": "Citrus x limon",
+        "commonNameSingle": "Lemon",
+        "hasChildren": false,
+        "rank": "species",
+        "rankId": 7000,
+        "rawRank": "Species",
+        "isAustralian": "recorded",
+        "highlight": "<strong>Lemon</strong>",
+        "image": "/data/bie/1104/170/1707054/raw.jpg",
+        "thumbnail": "/data/bie/1104/170/1707054/thumbnail.jpg",
+        "left": 301941,
+        "right": 301942,
+        "kingdom": "Plantae",
+        "phylum": "Charophyta",
+        "classs": "Equisetopsida",
+        "order": "Sapindales",
+        "family": "Rutaceae",
+        "genus": "Citrus",
+        "author": "(L.) Osbeck",
+        "linkIdentifier": "Citrus+x+limon",
+        "occCount": 86,
+        "imageCount": 21,
+        "isExcluded": false,
+        "imageUrl": "http://bie.ala.org.au/repo/1104/170/1707054/raw.jpg",
+        "largeImageUrl": "http://bie.ala.org.au/repo/1104/170/1707054/largeRaw.jpg",
+        "smallImageUrl": "http://bie.ala.org.au/repo/1104/170/1707054/smallRaw.jpg",
+        "thumbnailUrl": "http://bie.ala.org.au/repo/1104/170/1707054/thumbnail.jpg",
+        "imageMetadataUrl": "http://bie.ala.org.au/repo/1104/170/1707054/dc"
+      },
+      {
+        "guid": "urn:lsid:biodiversity.org.au:afd.taxon:6b993a43-da70-4ed7-b188-593d379f1dc2",
+        "name": "Paraplagusia bilineata",
+        "idxType": "TAXON",
+        "score": 0.38902712,
+        "parentGuid": "urn:lsid:biodiversity.org.au:afd.taxon:49b01f2e-d7cd-4c61-8410-d65a5f81956d",
+        "commonName": "Double-lined Tongue Sole, Doublelined Tongue-sole, Doublelined Tonguesole, Fingerlip Tonguesole, Flat Fish, Fringelip Tonguefish, Lemon Sole, Lemon Tongue Sole, Lemon Tongue-sole, Patterned Tongue Sole, Patterned Tongue-sole, Pointed Tongue-sole, Rock Sole, Sole, Spotted Tongue Sole, Spotted Tongue-sole, Twolined Tonguesole",
+        "nameComplete": "Paraplagusia bilineata",
+        "commonNameSingle": "Lemon Tongue Sole",
+        "hasChildren": false,
+        "rank": "species",
+        "rankId": 7000,
+        "rawRank": "Species",
+        "isAustralian": "recorded",
+        "highlight": "<strong>Lemon</strong> Sole <strong>Lemon</strong> Tongue Sole",
+        "image": "/data/bie/1111/195/1956811/raw.jpg",
+        "thumbnail": "/data/bie/1111/195/1956811/thumbnail.jpg",
+        "left": 396917,
+        "right": 396918,
+        "kingdom": "ANIMALIA",
+        "phylum": "CHORDATA",
+        "classs": "ACTINOPTERYGII",
+        "order": "PLEURONECTIFORMES",
+        "family": "CYNOGLOSSIDAE",
+        "genus": "Paraplagusia",
+        "author": "(Bloch, 1787)",
+        "linkIdentifier": "Paraplagusia+bilineata",
+        "occCount": 563,
+        "imageSource": "dr660",
+        "imageCount": 12,
+        "isExcluded": false,
+        "imageUrl": "http://bie.ala.org.au/repo/1111/195/1956811/raw.jpg",
+        "largeImageUrl": "http://bie.ala.org.au/repo/1111/195/1956811/largeRaw.jpg",
+        "smallImageUrl": "http://bie.ala.org.au/repo/1111/195/1956811/smallRaw.jpg",
+        "thumbnailUrl": "http://bie.ala.org.au/repo/1111/195/1956811/thumbnail.jpg",
+        "imageMetadataUrl": "http://bie.ala.org.au/repo/1111/195/1956811/dc"
+      },
+      {
+        "guid": "urn:lsid:biodiversity.org.au:afd.taxon:a7c8e05d-6ff6-412b-b469-ac5219f88ce9",
+        "name": "Plectorhinchus flavomaculatus",
+        "idxType": "TAXON",
+        "score": 0.3176393,
+        "parentGuid": "urn:lsid:biodiversity.org.au:afd.taxon:df39cd85-afb2-459f-9119-013eac84be02",
+        "commonName": "Gold-spot Blubber-lips, Gold-spotted Sweetlips, Goldspot Sweetlip Bream, Goldspotted Sweetlips, Lemon Sweetlip, Lemon Sweetlips, Lemonfish, Morwong, Netted Morwong, Netted Sweetlips, Painted Sweetlip, Rubberlip, Sweetlip, Yellow-spotted Sweetlip, Yellowspotted Thicklip",
+        "nameComplete": "Plectorhinchus flavomaculatus",
+        "commonNameSingle": "Goldspotted Sweetlips",
+        "hasChildren": false,
+        "rank": "species",
+        "rankId": 7000,
+        "rawRank": "Species",
+        "isAustralian": "recorded",
+        "highlight": "<strong>Lemon</strong> Sweetlip <strong>Lemon</strong> Sweetlips",
+        "image": "/data/bie/1111/195/1955102/raw.jpg",
+        "thumbnail": "/data/bie/1111/195/1955102/thumbnail.jpg",
+        "left": 390597,
+        "right": 390598,
+        "kingdom": "ANIMALIA",
+        "phylum": "CHORDATA",
+        "classs": "ACTINOPTERYGII",
+        "order": "PERCIFORMES",
+        "family": "HAEMULIDAE",
+        "genus": "Plectorhinchus",
+        "author": "(Ehrenberg, 1830)",
+        "linkIdentifier": "Plectorhinchus+flavomaculatus",
+        "occCount": 242,
+        "imageSource": "dr660",
+        "imageCount": 27,
+        "isExcluded": false,
+        "imageUrl": "http://bie.ala.org.au/repo/1111/195/1955102/raw.jpg",
+        "largeImageUrl": "http://bie.ala.org.au/repo/1111/195/1955102/largeRaw.jpg",
+        "smallImageUrl": "http://bie.ala.org.au/repo/1111/195/1955102/smallRaw.jpg",
+        "thumbnailUrl": "http://bie.ala.org.au/repo/1111/195/1955102/thumbnail.jpg",
+        "imageMetadataUrl": "http://bie.ala.org.au/repo/1111/195/1955102/dc"
+      },
+      {
+        "guid": "urn:lsid:biodiversity.org.au:apni.taxon:296958",
+        "name": "Passiflora foetida",
+        "idxType": "TAXON",
+        "score": 0.3176393,
+        "parentGuid": "urn:lsid:biodiversity.org.au:apni.taxon:57376",
+        "commonName": "Fetid Pa, Ka Thoc Rock, Love In A Mist Passion Flower, Love-in-a-mist, Love-in-the-mist Passionfruit, Mossy Passion Flower, Mossy Passionflower, Native Passionfruit, Passionflower, Running Pop, Scarlet Fruited Passionflower, Stinking Passion Flower, Stinking Passionflower, Stinking Passionfruit, Vaine 'ae Kuma, Wild Passion Fruit, Wild Passionfruit, Wild Water Lemon",
+        "nameComplete": "Passiflora foetida",
+        "commonNameSingle": "Love in a Mist Passion Flower",
+        "hasChildren": false,
+        "rank": "species",
+        "rankId": 7000,
+        "rawRank": "Species",
+        "isAustralian": "recorded",
+        "highlight": "Wild Water <strong>Lemon</strong> <strong>Lemon</strong>",
+        "image": "/data/bie/1078/161/1618148/raw.jpg",
+        "thumbnail": "/data/bie/1078/161/1618148/thumbnail.jpg",
+        "left": 242818,
+        "right": 242827,
+        "kingdom": "Plantae",
+        "phylum": "Charophyta",
+        "classs": "Equisetopsida",
+        "order": "Malpighiales",
+        "family": "Passifloraceae",
+        "genus": "Passiflora",
+        "author": "L.",
+        "linkIdentifier": "Passiflora+foetida",
+        "occCount": 1154,
+        "imageSource": "dr457",
+        "imageCount": 50,
+        "isExcluded": false,
+        "imageUrl": "http://bie.ala.org.au/repo/1078/161/1618148/raw.jpg",
+        "largeImageUrl": "http://bie.ala.org.au/repo/1078/161/1618148/largeRaw.jpg",
+        "smallImageUrl": "http://bie.ala.org.au/repo/1078/161/1618148/smallRaw.jpg",
+        "thumbnailUrl": "http://bie.ala.org.au/repo/1078/161/1618148/thumbnail.jpg",
+        "imageMetadataUrl": "http://bie.ala.org.au/repo/1078/161/1618148/dc"
+      },
+      {
+        "guid": "urn:lsid:biodiversity.org.au:apni.taxon:380218",
+        "name": "Citrus glauca",
+        "idxType": "TAXON",
+        "score": 0.2566913,
+        "parentGuid": "urn:lsid:biodiversity.org.au:apni.taxon:379840",
+        "commonName": "(australian) Desert Lime, Australian Desert Lime, Desert Kumquat, Desert Lemon, Desert Lime, Desert Lime, Desert Kumquat, Limebush, Desert Or Wild Lime., Lime Bush, Limebush, Native Cumquat, Native Lime, Wild Lemon, Wild Lime",
+        "nameComplete": "Citrus glauca",
+        "commonNameSingle": "(Australian) Desert Lime",
+        "hasChildren": false,
+        "rank": "species",
+        "rankId": 7000,
+        "rawRank": "Species",
+        "conservationStatus": "Vulnerable",
+        "conservationStatusSA": "Vulnerable",
+        "isAustralian": "recorded",
+        "highlight": "Desert <strong>Lemon</strong> <strong>Lemon</strong>",
+        "image": "/data/bie/1035/36/364835/raw.jpg",
+        "thumbnail": "/data/bie/1035/36/364835/thumbnail.jpg",
+        "left": 301943,
+        "right": 301944,
+        "kingdom": "Plantae",
+        "phylum": "Charophyta",
+        "classs": "Equisetopsida",
+        "order": "Sapindales",
+        "family": "Rutaceae",
+        "genus": "Citrus",
+        "author": "(Lindl.) Burkill",
+        "linkIdentifier": "Citrus+glauca",
+        "occCount": 458,
+        "imageSource": "dr414",
+        "imageCount": 4,
+        "isExcluded": false,
+        "imageUrl": "http://bie.ala.org.au/repo/1035/36/364835/raw.jpg",
+        "largeImageUrl": "http://bie.ala.org.au/repo/1035/36/364835/largeRaw.jpg",
+        "smallImageUrl": "http://bie.ala.org.au/repo/1035/36/364835/smallRaw.jpg",
+        "thumbnailUrl": "http://bie.ala.org.au/repo/1035/36/364835/thumbnail.jpg",
+        "imageMetadataUrl": "http://bie.ala.org.au/repo/1035/36/364835/dc"
+      },
+      {
+        "guid": "urn:lsid:biodiversity.org.au:afd.taxon:88363a52-63b9-4b2a-81e0-b670cbd4edfc",
+        "name": "Rachycentron canadum",
+        "idxType": "TAXON",
+        "score": 0.22460489,
+        "parentGuid": "urn:lsid:biodiversity.org.au:afd.taxon:304794ef-fb20-47aa-bdd4-23823b436a2f",
+        "commonName": "Black King, Black King Fish, Black Kingfish, Black Salmon, Butterfish, Cabio, Cobe, Cobia, Cobla, Cod, Crab Eater, Crab-eater, Crabeater, Cubby Yew, Kingfish, Lemon Fish, Ling, Prodigal Son, Runner, Sergeant Fish, Sergeant-fish, Sergeantfish",
+        "nameComplete": "Rachycentron canadum",
+        "commonNameSingle": "Cobia",
+        "hasChildren": false,
+        "rank": "species",
+        "rankId": 7000,
+        "rawRank": "Species",
+        "isAustralian": "recorded",
+        "highlight": "<strong>Lemon</strong> Fish",
+        "image": "/data/bie/1111/195/1957052/raw.jpg",
+        "thumbnail": "/data/bie/1111/195/1957052/thumbnail.jpg",
+        "left": 392415,
+        "right": 392416,
+        "kingdom": "ANIMALIA",
+        "phylum": "CHORDATA",
+        "classs": "ACTINOPTERYGII",
+        "order": "PERCIFORMES",
+        "family": "RACHYCENTRIDAE",
+        "genus": "Rachycentron",
+        "author": "(Linnaeus, 1766)",
+        "linkIdentifier": "Rachycentron+canadum",
+        "occCount": 1137,
+        "imageSource": "dr660",
+        "imageCount": 14,
+        "isExcluded": false,
+        "imageUrl": "http://bie.ala.org.au/repo/1111/195/1957052/raw.jpg",
+        "largeImageUrl": "http://bie.ala.org.au/repo/1111/195/1957052/largeRaw.jpg",
+        "smallImageUrl": "http://bie.ala.org.au/repo/1111/195/1957052/smallRaw.jpg",
+        "thumbnailUrl": "http://bie.ala.org.au/repo/1111/195/1957052/thumbnail.jpg",
+        "imageMetadataUrl": "http://bie.ala.org.au/repo/1111/195/1957052/dc"
+      },
+      {
+        "guid": "urn:lsid:biodiversity.org.au:apni.taxon:444478",
+        "name": "Callistemon citrinus",
+        "idxType": "TAXON",
+        "score": 0.22460489,
+        "parentGuid": "urn:lsid:biodiversity.org.au:apni.taxon:444416",
+        "commonName": "Common Red Bottlebrush, Crimson Bottlebrush, Lemon Bottlebrush",
+        "nameComplete": "Callistemon citrinus",
+        "commonNameSingle": "Common Red Bottlebrush",
+        "hasChildren": false,
+        "rank": "species",
+        "rankId": 7000,
+        "rawRank": "Species",
+        "isAustralian": "recorded",
+        "highlight": "<strong>Lemon</strong> Bottlebrush",
+        "image": "/data/bie/1099/167/1676681/raw.jpg",
+        "thumbnail": "/data/bie/1099/167/1676681/thumbnail.jpg",
+        "left": 289735,
+        "right": 289736,
+        "kingdom": "Plantae",
+        "phylum": "Charophyta",
+        "classs": "Equisetopsida",
+        "order": "Myrtales",
+        "family": "Myrtaceae",
+        "genus": "Callistemon",
+        "author": "(Curtis) Skeels",
+        "linkIdentifier": "Callistemon+citrinus",
+        "occCount": 1904,
+        "imageSource": "dr534",
+        "imageCount": 75,
+        "isExcluded": false,
+        "imageUrl": "http://bie.ala.org.au/repo/1099/167/1676681/raw.jpg",
+        "largeImageUrl": "http://bie.ala.org.au/repo/1099/167/1676681/largeRaw.jpg",
+        "smallImageUrl": "http://bie.ala.org.au/repo/1099/167/1676681/smallRaw.jpg",
+        "thumbnailUrl": "http://bie.ala.org.au/repo/1099/167/1676681/thumbnail.jpg",
+        "imageMetadataUrl": "http://bie.ala.org.au/repo/1099/167/1676681/dc"
+      },
+      {
+        "guid": "urn:lsid:biodiversity.org.au:apni.taxon:269722",
+        "name": "Nephrolepis cordifolia",
+        "idxType": "TAXON",
+        "score": 0.024064811,
+        "parentGuid": "urn:lsid:biodiversity.org.au:apni.taxon:330033",
+        "commonName": "Boston Fern, Erect Sword Fern, Fish-bone Fern, Fishbone Fern, Fishbone Fern, Herringbone Fern, Sword Fern, Herring Bone Fern, Herringbone Fern, Ladder Fern, Lemon Butter Fern, Narrow Swordfern, Pop-rock Fern, Southern Sword Fern, Sword Fern, Tube Ladder Fern, Tuber Sword Fern",
+        "nameComplete": "Nephrolepis cordifolia",
+        "commonNameSingle": "Fishbone Fern",
+        "hasChildren": false,
+        "rank": "species",
+        "rankId": 7000,
+        "rawRank": "Species",
+        "isAustralian": "recorded",
+        "highlight": "<strong>Lemon</strong> Butter Fern",
+        "image": "/data/bie/1061/211/2112013/raw.jpg",
+        "thumbnail": "/data/bie/1061/211/2112013/thumbnail.jpg",
+        "left": 329530,
+        "right": 329531,
+        "kingdom": "Plantae",
+        "phylum": "Charophyta",
+        "classs": "Equisetopsida",
+        "order": "Polypodiales",
+        "family": "Lomariopsidaceae",
+        "genus": "Nephrolepis",
+        "author": "(L.) C.Presl",
+        "linkIdentifier": "urn%3Alsid%3Abiodiversity.org.au%3Aapni.taxon%3A269722",
+        "occCount": 1435,
+        "imageSource": "dr440",
+        "imageCount": 27,
+        "isExcluded": false,
+        "imageUrl": "http://bie.ala.org.au/repo/1061/211/2112013/raw.jpg",
+        "largeImageUrl": "http://bie.ala.org.au/repo/1061/211/2112013/largeRaw.jpg",
+        "smallImageUrl": "http://bie.ala.org.au/repo/1061/211/2112013/smallRaw.jpg",
+        "thumbnailUrl": "http://bie.ala.org.au/repo/1061/211/2112013/thumbnail.jpg",
+        "imageMetadataUrl": "http://bie.ala.org.au/repo/1061/211/2112013/dc"
+      },
+      {
+        "guid": "urn:lsid:biodiversity.org.au:apni.taxon:421080",
+        "name": "Psidium guajava",
+        "idxType": "TAXON",
+        "score": 0.005013502,
+        "parentGuid": "urn:lsid:biodiversity.org.au:apni.taxon:312249",
+        "commonName": "Cook Islands), Dipajaya Jambu, Djambu, Fiji, Galapagos, Goavier, Gouyave, Guava, Jambu Batu, Jambu Biji, Lemon Guava, Malaysia), Perala, Petokal, Saipan, Samoa), Spain), Tokal, Tonga, Tonga), Tuvalu, White Guava, Yap), Yellow Guava",
+        "nameComplete": "Psidium guajava",
+        "commonNameSingle": "Guava",
+        "hasChildren": false,
+        "rank": "species",
+        "rankId": 7000,
+        "rawRank": "Species",
+        "isAustralian": "recorded",
+        "highlight": "<strong>Lemon</strong> Guava",
+        "image": "/data/bie/1038/36/361420/raw.jpg",
+        "thumbnail": "/data/bie/1038/36/361420/thumbnail.jpg",
+        "left": 289453,
+        "right": 289454,
+        "kingdom": "Plantae",
+        "phylum": "Charophyta",
+        "classs": "Equisetopsida",
+        "order": "Myrtales",
+        "family": "Myrtaceae",
+        "genus": "Psidium",
+        "author": "L.",
+        "linkIdentifier": "Psidium+guajava",
+        "occCount": 244,
+        "imageSource": "dr417",
+        "imageCount": 35,
+        "isExcluded": false,
+        "imageUrl": "http://bie.ala.org.au/repo/1038/36/361420/raw.jpg",
+        "largeImageUrl": "http://bie.ala.org.au/repo/1038/36/361420/largeRaw.jpg",
+        "smallImageUrl": "http://bie.ala.org.au/repo/1038/36/361420/smallRaw.jpg",
+        "thumbnailUrl": "http://bie.ala.org.au/repo/1038/36/361420/thumbnail.jpg",
+        "imageMetadataUrl": "http://bie.ala.org.au/repo/1038/36/361420/dc"
+      },
+      {
+        "guid": "urn:lsid:biodiversity.org.au:apni.taxon:411763",
+        "name": "Backhousia citriodora",
+        "idxType": "TAXON",
+        "score": 0.00015350664,
+        "parentGuid": "urn:lsid:biodiversity.org.au:apni.taxon:411755",
+        "commonName": "Lemon Ironwood, Lemon Myrtle, Lemon Scented Backhousia, Lemon Scented Myrtle, Lemon Scented Verbena, Lemon-scented Myrtle, Sweet Verbena Myrtle, Sweet Verbena Tree, The Sweet Verbena Tree",
+        "nameComplete": "Backhousia citriodora",
+        "commonNameSingle": "Lemon scented Myrtle",
+        "hasChildren": false,
+        "rank": "species",
+        "rankId": 7000,
+        "rawRank": "Species",
+        "isAustralian": "recorded",
+        "highlight": " the <strong>lemon</strong> fragrance of the foliage. However, the species is known to have at least B.citriodora used to be known in forestry literature as <strong>lemon</strong> ironwood but in",
+        "image": "/data/bie/1035/36/364662/raw.jpg",
+        "thumbnail": "/data/bie/1035/36/364662/thumbnail.jpg",
+        "left": 293281,
+        "right": 293282,
+        "kingdom": "Plantae",
+        "phylum": "Charophyta",
+        "classs": "Equisetopsida",
+        "order": "Myrtales",
+        "family": "Myrtaceae",
+        "genus": "Backhousia",
+        "author": "F.Muell.",
+        "linkIdentifier": "Backhousia+citriodora",
+        "occCount": 155,
+        "imageSource": "dr414",
+        "imageCount": 13,
+        "isExcluded": false,
+        "imageUrl": "http://bie.ala.org.au/repo/1035/36/364662/raw.jpg",
+        "largeImageUrl": "http://bie.ala.org.au/repo/1035/36/364662/largeRaw.jpg",
+        "smallImageUrl": "http://bie.ala.org.au/repo/1035/36/364662/smallRaw.jpg",
+        "thumbnailUrl": "http://bie.ala.org.au/repo/1035/36/364662/thumbnail.jpg",
+        "imageMetadataUrl": "http://bie.ala.org.au/repo/1035/36/364662/dc"
+      }
+    ]
+  }
+}
+
+https://species.wikipedia.org/w/api.php?action=opensearch&format=json&limit=1&search=Citrus%20×%20limon
+[
+  "Citrus × limon",
+  [
+    "Citrus × limon"
+  ],
+  [
+    ""
+  ],
+  [
+    "https://species.wikimedia.org/wiki/Citrus_%C3%97_limon"
+  ]
+]
+
 https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&search=Lemon
 {
   "searchinfo": {
@@ -1277,7 +1959,7 @@ See the complete documentation, or the API help for more information.
                 "touched": "2016-06-06T03:41:07Z",
                 "lastrevid": 712238983,
                 "length": 58749,
-                "fullurl": "https://en.wikipedia.org/wiki/Bob_Lemon",
+                "fullurl": "https://en.wikipediahttp/wiki/Bob_Lemon",
                 "editurl": "https://en.wikipedia.org/w/index.php?title=Bob_Lemon&action=edit",
                 "canonicalurl": "https://en.wikipedia.org/wiki/Bob_Lemon"
             },
