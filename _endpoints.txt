@@ -1,0 +1,1430 @@
+https://kgsearch.googleapis.com/v1/entities:search?key=AIzaSyDgKIwWkoMwhRb6qwv2wkZ62UKDrKEgmcw&limit=1&query=Citrus%20×%20limon
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "goog": "http://schema.googleapis.com/",
+    "EntitySearchResult": "goog:EntitySearchResult",
+    "detailedDescription": "goog:detailedDescription",
+    "resultScore": "goog:resultScore",
+    "kg": "http://g.co/kg"
+  },
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "EntitySearchResult",
+      "result": {
+        "@id": "kg:/m/09k_b",
+        "name": "lemon",
+        "@type": [
+          "Thing"
+        ],
+        "description": "Fruit",
+        "image": {
+          "contentUrl": "http://t3.gstatic.com/images?q=tbn:ANd9GcQFqYhndRbOaLyKXispy389lC1iYZ3n0bfmWxLSqmH3WHmTAT56",
+          "url": "https://en.wikipedia.org/wiki/Lemon"
+        },
+        "detailedDescription": {
+          "articleBody": "The lemon is a species of small evergreen tree native to Asia.\nThe tree's ellipsoidal yellow fruit is used for culinary and non-culinary purposes throughout the world, primarily for its juice, which has both culinary and cleaning uses. ",
+          "url": "http://en.wikipedia.org/wiki/Lemon",
+          "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+        }
+      },
+      "resultScore": 593.074158
+    }
+  ]
+}
+
+https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&search=Lemon
+{
+  "searchinfo": {
+    "search": "Lemon"
+  },
+  "search": [
+    {
+      "id": "Q1093742",
+      "concepturi": "http://www.wikidata.org/entity/Q1093742",
+      "url": "//www.wikidata.org/wiki/Q1093742",
+      "title": "Q1093742",
+      "pageid": 1041410,
+      "label": "lemon",
+      "description": "fruit (for Citrus ×limon use Q500 )",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "lemon"
+      }
+    },
+    {
+      "id": "Q299734",
+      "concepturi": "http://www.wikidata.org/entity/Q299734",
+      "url": "//www.wikidata.org/wiki/Q299734",
+      "title": "Q299734",
+      "pageid": 288859,
+      "label": "Lemon",
+      "description": "Wikipedia disambiguation page",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Lemon"
+      }
+    },
+    {
+      "id": "Q2340518",
+      "concepturi": "http://www.wikidata.org/entity/Q2340518",
+      "url": "//www.wikidata.org/wiki/Q2340518",
+      "title": "Q2340518",
+      "pageid": 2261171,
+      "label": "Lemon",
+      "description": "song by U2",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Lemon"
+      }
+    },
+    {
+      "id": "Q2720565",
+      "concepturi": "http://www.wikidata.org/entity/Q2720565",
+      "url": "//www.wikidata.org/wiki/Q2720565",
+      "title": "Q2720565",
+      "pageid": 2614491,
+      "label": "lemon",
+      "description": "color of lemons, color somewhat resembling yellow and named after the lemon fruit",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "lemon"
+      }
+    },
+    {
+      "id": "Q11544641",
+      "concepturi": "http://www.wikidata.org/entity/Q11544641",
+      "url": "//www.wikidata.org/wiki/Q11544641",
+      "title": "Q11544641",
+      "pageid": 12684578,
+      "label": "Lemon",
+      "description": "Wikimedia disambiguation page",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Lemon"
+      }
+    },
+    {
+      "id": "Q13522834",
+      "concepturi": "http://www.wikidata.org/entity/Q13522834",
+      "url": "//www.wikidata.org/wiki/Q13522834",
+      "title": "Q13522834",
+      "pageid": 15199152,
+      "label": "Lemon",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Lemon"
+      }
+    },
+    {
+      "id": "Q6521267",
+      "concepturi": "http://www.wikidata.org/entity/Q6521267",
+      "url": "//www.wikidata.org/wiki/Q6521267",
+      "title": "Q6521267",
+      "pageid": 6340974,
+      "label": "Lemon",
+      "match": {
+        "type": "label",
+        "language": "en",
+        "text": "Lemon"
+      }
+    }
+  ],
+  "search-continue": 7,
+  "success": 1
+}
+
+https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&type=property&format=json&search=Citrus%20×%20limon
+{
+  "searchinfo": {
+    "search": "Citrus × limon"
+  },
+  "search": [],
+  "success": 1
+}
+
+https://en.wikipedia.org/w/api.php?action=opensearch&format=json&limit=1&search=Citrus%20×%20limon
+[
+  "Citrus × limon",
+  [
+    "Citrus × limon"
+  ],
+  [
+    "This is a redirect from the scientific name of a plant (or group of plants) to the vernacular (\"common\") name."
+  ],
+  [
+    "https://en.wikipedia.org/wiki/Citrus_%C3%97_limon"
+  ]
+]
+
+https://en.wikipedia.org/w/api.php?action=query&format=json&exintro=&prop=extracts&titles=Citrus%20×%20limon
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "7350333": {
+        "pageid": 7350333,
+        "ns": 0,
+        "title": "Citrus × limon",
+        "extract": "<ul><li>This is a redirect from the <b>scientific name of a plant</b> (or group of plants) to the vernacular (\"common\") name. For more information follow the bold category link.</li>\n</ul>"
+      }
+    }
+  }
+}
+
+http://en.wikipedia.org/wiki?curid=7350333
+<HTML>
+
+http://api.gbif.org/v1/species/search?q=Citrus%20×%20limon
+{
+  "offset": 0,
+  "limit": 20,
+  "endOfRecords": false,
+  "count": 73,
+  "results": [
+    {
+      "key": 103117904,
+      "datasetKey": "fab88965-e69d-4491-a04d-e3198b626e52",
+      "parentKey": 103117714,
+      "parent": "Citrus",
+      "kingdom": "Viridiplantae",
+      "phylum": "Streptophyta",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 102974832,
+      "phylumKey": 102986054,
+      "orderKey": 103114060,
+      "familyKey": 103117429,
+      "genusKey": 103117714,
+      "speciesKey": 103117904,
+      "scientificName": "Citrus limon",
+      "canonicalName": "Citrus limon",
+      "nameType": "SCIENTIFIC",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "taxonID": "2708",
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": false,
+      "higherClassificationMap": {
+        "102974832": "Viridiplantae",
+        "102986054": "Streptophyta",
+        "103114060": "Sapindales",
+        "103117429": "Rutaceae",
+        "103117714": "Citrus"
+      }
+    },
+    {
+      "key": 103503929,
+      "datasetKey": "fab88965-e69d-4491-a04d-e3198b626e52",
+      "parentKey": 864648,
+      "parent": "Citrus",
+      "acceptedKey": 103117904,
+      "accepted": "Citrus limon",
+      "kingdom": "Viridiplantae",
+      "phylum": "Streptophyta",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 102974832,
+      "phylumKey": 102986054,
+      "orderKey": 103114060,
+      "familyKey": 103117429,
+      "genusKey": 103117714,
+      "speciesKey": 103117904,
+      "scientificName": "Citrus limon (L.) Burm.f.",
+      "canonicalName": "Citrus limon",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "SYNONYM",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "taxonID": "e7685",
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": true,
+      "higherClassificationMap": {
+        "864648": "Citrus",
+        "102974832": "Viridiplantae",
+        "102986054": "Streptophyta",
+        "103114060": "Sapindales",
+        "103117429": "Rutaceae",
+        "103117714": "Citrus",
+        "103117904": "Citrus limon"
+      }
+    },
+    {
+      "key": 114542163,
+      "datasetKey": "3772da2f-daa1-4f07-a438-15a881a2142c",
+      "nubKey": 3190171,
+      "parentKey": 114542055,
+      "parent": "Citrus",
+      "kingdom": "Plantae",
+      "phylum": "Angiospermae",
+      "order": "Rutales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "kingdomKey": 114485080,
+      "phylumKey": 114485081,
+      "classKey": 114485082,
+      "orderKey": 114541411,
+      "familyKey": 114542003,
+      "genusKey": 114542055,
+      "scientificName": "Citrus limon (L.) Burm. f.",
+      "canonicalName": "Citrus limon",
+      "authorship": "Burm. f. (L.)",
+      "nameType": "SCIENTIFIC",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": false,
+      "higherClassificationMap": {
+        "114485080": "Plantae",
+        "114485081": "Angiospermae",
+        "114485082": "Dicotyledoneae",
+        "114541411": "Rutales",
+        "114542003": "Rutaceae",
+        "114542055": "Citrus"
+      },
+      "class": "Dicotyledoneae"
+    },
+    {
+      "key": 108618936,
+      "datasetKey": "0938172b-2086-439c-a1dd-c21cb0109ed5",
+      "nubKey": 3190171,
+      "parentKey": 108618924,
+      "parent": "Citrus",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 108390641,
+      "phylumKey": 108435009,
+      "classKey": 108460867,
+      "orderKey": 108618136,
+      "familyKey": 108618802,
+      "genusKey": 108618924,
+      "speciesKey": 108618936,
+      "scientificName": "Citrus limon (L.) Burm. f.",
+      "canonicalName": "Citrus limon",
+      "authorship": "(L.) Burm. f.",
+      "accordingTo": "CoL2006/ITS",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "taxonID": "10200757",
+      "extinct": false,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": false,
+      "higherClassificationMap": {
+        "108390641": "Plantae",
+        "108435009": "Magnoliophyta",
+        "108460867": "Magnoliopsida",
+        "108618136": "Sapindales",
+        "108618802": "Rutaceae",
+        "108618924": "Citrus"
+      },
+      "class": "Magnoliopsida"
+    },
+    {
+      "key": 101648871,
+      "datasetKey": "de8934f4-a136-481c-a87a-b0b202b80a31",
+      "nubKey": 3190171,
+      "parentKey": 120781388,
+      "parent": "Citrus",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 101600789,
+      "phylumKey": 120780869,
+      "classKey": 120781364,
+      "orderKey": 120781370,
+      "familyKey": 120781384,
+      "genusKey": 120781388,
+      "speciesKey": 101648871,
+      "scientificName": "Citrus limon (L.) Burm. f.",
+      "canonicalName": "Citrus limon",
+      "authorship": "(L.) Burm. f.",
+      "nameType": "SCIENTIFIC",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "taxonID": "221001",
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": false,
+      "higherClassificationMap": {
+        "101600789": "Plantae",
+        "120780869": "Magnoliophyta",
+        "120781364": "Magnoliopsida",
+        "120781370": "Sapindales",
+        "120781384": "Rutaceae",
+        "120781388": "Citrus"
+      },
+      "class": "Magnoliopsida"
+    },
+    {
+      "key": 102301912,
+      "datasetKey": "9ca92552-f23a-41a8-a140-01abaa31c931",
+      "nubKey": 3190171,
+      "parentKey": 102301894,
+      "parent": "Citrus",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 102185631,
+      "phylumKey": 102191521,
+      "classKey": 102228772,
+      "orderKey": 102301400,
+      "familyKey": 102301852,
+      "genusKey": 102301894,
+      "speciesKey": 102301912,
+      "scientificName": "Citrus ×limon (L.) Burm. f. (pro. sp.)",
+      "canonicalName": "Citrus limon",
+      "authorship": "(L.) Burm. f. (pro. sp.)",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "taxonID": "825214",
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "lemon",
+          "language": "eng"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "102185631": "Plantae",
+        "102191521": "Magnoliophyta",
+        "102228772": "Magnoliopsida",
+        "102301400": "Sapindales",
+        "102301852": "Rutaceae",
+        "102301894": "Citrus"
+      },
+      "class": "Magnoliopsida"
+    },
+    {
+      "key": 118491011,
+      "datasetKey": "d9a4eedb-e985-4456-ad46-3df8472e00e8",
+      "nubKey": 7647136,
+      "parentKey": 120748426,
+      "parent": "Citrus",
+      "kingdom": "Plantae",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 120737377,
+      "familyKey": 120748210,
+      "genusKey": 120748426,
+      "speciesKey": 118491011,
+      "scientificName": "Citrus limon (L.) Osbeck",
+      "canonicalName": "Citrus limon",
+      "authorship": "(L.) Osbeck",
+      "accordingTo": "TRO",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "taxonID": "tro-28101295",
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": false,
+      "higherClassificationMap": {
+        "120737377": "Plantae",
+        "120748210": "Rutaceae",
+        "120748426": "Citrus"
+      }
+    },
+    {
+      "key": 100071488,
+      "datasetKey": "9e30a53f-e7e9-44e1-a476-214d7f342c58",
+      "nubKey": 3190171,
+      "parentKey": 119651446,
+      "parent": "Citrus",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 119651384,
+      "phylumKey": 119651385,
+      "classKey": 119651403,
+      "orderKey": 119651442,
+      "familyKey": 119651443,
+      "genusKey": 119651446,
+      "speciesKey": 100071488,
+      "scientificName": "Citrus limon (L.) Burm. f.",
+      "canonicalName": "Citrus limon",
+      "authorship": "Burm. f. (L.)",
+      "nameType": "SCIENTIFIC",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": false,
+      "higherClassificationMap": {
+        "119651384": "Plantae",
+        "119651385": "Tracheophyta",
+        "119651403": "Magnoliopsida",
+        "119651442": "Sapindales",
+        "119651443": "Rutaceae",
+        "119651446": "Citrus"
+      },
+      "class": "Magnoliopsida"
+    },
+    {
+      "key": 120624801,
+      "datasetKey": "1c3e4860-1331-42d5-9dd9-b8263195664f",
+      "nubKey": 3190171,
+      "parentKey": 120624800,
+      "parent": "Citrus",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 120624761,
+      "phylumKey": 120624784,
+      "classKey": 120624785,
+      "orderKey": 120624792,
+      "familyKey": 120624799,
+      "genusKey": 120624800,
+      "speciesKey": 120624801,
+      "scientificName": "Citrus limon (L.) Burm. f.",
+      "canonicalName": "Citrus limon",
+      "authorship": "(L.) Burm. f.",
+      "nameType": "SCIENTIFIC",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "taxonID": "56",
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [
+        {
+          "description": "Arbusto"
+        }
+      ],
+      "vernacularNames": [],
+      "synonym": false,
+      "higherClassificationMap": {
+        "120624761": "Plantae",
+        "120624784": "Magnoliophyta",
+        "120624785": "Magnoliopsida",
+        "120624792": "Sapindales",
+        "120624799": "Rutaceae",
+        "120624800": "Citrus"
+      },
+      "class": "Magnoliopsida"
+    },
+    {
+      "key": 102301913,
+      "datasetKey": "9ca92552-f23a-41a8-a140-01abaa31c931",
+      "nubKey": 3190171,
+      "parentKey": 130576,
+      "parent": "Citrus",
+      "acceptedKey": 102301912,
+      "accepted": "Citrus ×limon (L.) Burm. f. (pro. sp.)",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 102185631,
+      "phylumKey": 102191521,
+      "classKey": 102228772,
+      "orderKey": 102301400,
+      "familyKey": 102301852,
+      "genusKey": 102301894,
+      "speciesKey": 102301912,
+      "scientificName": "Citrus limon (L.) Burm. f.",
+      "canonicalName": "Citrus limon",
+      "authorship": "(L.) Burm. f.",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "SYNONYM",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "taxonID": "28885",
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": true,
+      "higherClassificationMap": {
+        "130576": "Citrus",
+        "102185631": "Plantae",
+        "102191521": "Magnoliophyta",
+        "102228772": "Magnoliopsida",
+        "102301400": "Sapindales",
+        "102301852": "Rutaceae",
+        "102301894": "Citrus",
+        "102301912": "Citrus limon"
+      },
+      "class": "Magnoliopsida"
+    },
+    {
+      "key": 103504172,
+      "datasetKey": "fab88965-e69d-4491-a04d-e3198b626e52",
+      "parentKey": 864648,
+      "parent": "Citrus",
+      "acceptedKey": 103117904,
+      "accepted": "Citrus limon",
+      "kingdom": "Viridiplantae",
+      "phylum": "Streptophyta",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 102974832,
+      "phylumKey": 102986054,
+      "orderKey": 103114060,
+      "familyKey": 103117429,
+      "genusKey": 103117714,
+      "speciesKey": 103117904,
+      "scientificName": "Citrus x limon",
+      "canonicalName": "Citrus limon",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "SYNONYM",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "taxonID": "e7688",
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": true,
+      "higherClassificationMap": {
+        "864648": "Citrus",
+        "102974832": "Viridiplantae",
+        "102986054": "Streptophyta",
+        "103114060": "Sapindales",
+        "103117429": "Rutaceae",
+        "103117714": "Citrus",
+        "103117904": "Citrus limon"
+      }
+    },
+    {
+      "key": 114774866,
+      "datasetKey": "aacd816d-662c-49d2-ad1a-97e66e2a2908",
+      "parentKey": 114774858,
+      "parent": "Citrus",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "familyKey": 114774770,
+      "genusKey": 114774858,
+      "speciesKey": 114774866,
+      "scientificName": "Citrus x limon (L.) Osbeck",
+      "canonicalName": "Citrus limon",
+      "authorship": "(L.) Osbeck",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "taxonID": "414",
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "limão, limão-cravo",
+          "language": "por"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "114774770": "Rutaceae",
+        "114774858": "Citrus"
+      }
+    },
+    {
+      "key": 113656719,
+      "datasetKey": "cbb6498e-8927-405a-916b-576d00a6289b",
+      "nubKey": 3190171,
+      "parentKey": 115385939,
+      "parent": "Citrus",
+      "kingdom": "Plantae",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 113551056,
+      "classKey": 115385384,
+      "orderKey": 115385599,
+      "familyKey": 115385829,
+      "genusKey": 115385939,
+      "speciesKey": 113656719,
+      "scientificName": "Citrus ×limon (L.) Burm.f.",
+      "canonicalName": "Citrus limon",
+      "authorship": "Burm. f. (L.)",
+      "nameType": "SCIENTIFIC",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [
+        {
+          "description": "The lemon (Citrus × limon) is a small evergreen tree native to Asia. The tree's ellipsoidal yellow fruit is used for culinary and non-culinary purposes throughout the world, primarily for its juice, though the pulp and rind (zest) are also used in cooking and baking. The juice of the lemon is about 5% to 6% citric acid, which gives lemons a sour taste. The distinctive sour taste of lemon juice makes it a key ingredient in drinks and foods such as lemonade and lemon meringue pie."
+        },
+        {
+          "description": "Lemon juice, rind, and zest are used in a wide variety of foods and drinks. Lemon juice is used to make lemonade, soft drinks, and cocktails. It is used in marinades for fish, where its acid neutralizes amines in fish by converting them into nonvolatile ammonium salts, and meat, where the acid partially hydrolyzes tough collagen fibers, tenderizing the meat, but the low pH denatures the proteins, causing them to dry out when cooked. Lemon juice is frequently used in the United Kingdom to add to pancakes, especially on Shrove Tuesday.Lemon juice is also used as a short-term preservative on certain foods that tend to oxidize and turn brown after being sliced (enzymatic browning), such as apples, bananas, and avocados, where its acid denatures the enzymes.Lemon juice and rind are used to make marmalade and lemon liqueur. Lemon slices and lemon rind are used as a garnish for food and drinks. Lemon zest, the grated outer rind of the fruit, is used to add flavor to baked goods, puddings, rice, and other dishes.The leaves of the lemon tree are used to make a tea and for preparing cooked meats and seafoods."
+        },
+        {
+          "description": "Lemons are often grafted to more vigorous rootstocks."
+        },
+        {
+          "description": "The origin of the lemon is unknown, though lemons are thought to have first grown in Assam (a region in northeast India), northern Burma, and China. A study of the genetic origin of the lemon reported it to be hybrid between bitter orange (sour orange) and citron.Lemons were known to the Jews of Jerusalem, who, according to Josephus, pelted an errant high priest with them during a festival in the 90s BC,Robin Lane Fox, The Unauthorized Version, 1992:116. although Jewish tradition maintains this was done with citrons (specifically the Balady citron, not lemons.Talmud Bavli Sukkah 48b They entered Europe near southern Italy no later than the first century AD, during the time of Ancient Rome. However, they were not widely cultivated. They were later introduced to Persia and then to Iraq and Egypt around 700 AD. The lemon was first recorded in literature in a 10th-century Arabic treatise on farming, and was also used as an ornamental plant in early Islamic gardens. It was distributed widely throughout the Arab world and the Mediterranean region between 1000 and 1150.The first substantial cultivation of lemons in Europe began in Genoa in the middle of the 15th century. The lemon was later introduced to the Americas in 1493 when Christopher Columbus brought lemon seeds to Hispaniola on his voyages. Spanish conquest throughout the New World helped spread lemon seeds. It was mainly used as an ornamental plant and for medicine. In the 19th century, lemons were increasingly planted in Florida and California.In 1747, James Lind's experiments on seamen suffering from scurvy involved adding lemon juice to their diets, though vitamin C was not yet known.The origin of the word \"lemon\" may be Middle Eastern. One of its earliest occurrences appears in a Middle English customs document of 1420–1421. The word draws from the Old French limon, thence the Italian limone, from the Arabic laymūn or līmūn ليمون, and from the Persian līmūn لیمو, a generic term for citrus fruit, which is a cognate of Sanskrit निम्ब (nimbū, “lime”)."
+        },
+        {
+          "description": "Many plants taste or smell similar to lemons. Certain cultivars of basil Cymbopogon (lemongrass) Lemon balm, a mint-like herbaceous perennial in the Lamiaceae family Two varieties of scented geranium: Pelargonium crispum (lemon geranium) and Pelargonium x melissinum (lemon balm) Lemon myrtle, an Australian bush food, has recently become a popular alternative to lemons.Lemon Myrtle The crushed and dried leaves and edible essential oils have a strong, sweet lemon taste, but contain no citric acid. Lemon myrtle is popular in foods that curdle with lemon juice, such as cheesecake and ice cream. Lemon thyme Lemon verbena Limes, another common sour citrus fruit, used similarly to lemons Certain cultivars of mint Magnolia grandiflora tree flowers Several cultivars of hybrid tea roses"
+        },
+        {
+          "description": "Lemons are a rich source of vitamin C, providing 64% of the Daily Value in a 100 g serving (right table). Numerous essential nutrients are also present in small amounts (right table).Lemons contain numerous phytochemicals, including polyphenols, terpenes, and tannins. As with other citrus fruits, they have significant concentrations of citric acid (about 47 g/l in the juices). Lemons left unrefrigerated for long periods of time are susceptible to mold."
+        },
+        {
+          "description": "IndustrialLemons were the primary commercial source of citric acid before the development of fermentation-based processes. As a cleaning agentThe juice of the lemon may be used for cleaning. A halved lemon dipped in salt or baking powder is used to brighten copper cookware. The acid dissolves the tarnish and the abrasives assist the cleaning. As a sanitary kitchen deodorizer the juice can deodorize, remove grease, bleach stains, and disinfect; when mixed with baking soda, it removes stains from plastic food storage containers. The oil of the lemon's peel also has various uses. It is used as a wood cleaner and polish, where its solvent property is employed to dissolve old wax, fingerprints, and grime. Lemon oil and orange oil are also used as a nontoxic insecticide treatment.A halved lemon is used as a finger moistener for those counting large amounts of bills, such as tellers and cashiers. MedicinalLemon oil may be used in aromatherapy. Lemon oil aroma does not influence the human immune system, but may enhance mood.9 Ohio State University Research, March 3, 2008 Study is published in the March 2008 issue of the journal Psychoneuroendocrinology The low pH of juice makes it antibacterial, and in India, the lemon is used in Indian traditional medicines (Siddha medicine and Ayurveda). OtherOne educational science experiment involves attaching electrodes to a lemon and using it as a battery to produce electricity. Although very low power, several lemon batteries can power a small digital watch. These experiments also work with other fruits and vegetables.Lemon juice is also sometimes used as an acid in educational science experiments.Lemon juice may be used as a simple invisible ink, developed by heat."
+        },
+        {
+          "description": "As of 2012, the world's top three lemon-producing nations by tonnage were China, India, and Mexico, which together accounted for nearly half (43.5%) of all global production. Top lemon* producing countries — 2012(in million metric tons) Rank Country Production (Tonnes) Portion of total 1 2,300,000 15.21% 2 2,200,000 14.55% 3 2,070,764 13.70% 4 1,300,000 8.60% 5 1,208,275 7.99% 6 771,110 5.10% 7 759'711 5.69% 8 625,700 4.14% 9 600,000 3.97% 10 346,325 2.29% — All others 2,936,577 19.42% — World 15,118,462 100% Source: UN Food & Agriculture Organization *Note: All figures include both lemons and limes."
+        },
+        {
+          "description": "The 'Bonnie Brae' is oblong, smooth, thin-skinned, and seedless; mostly grown in San Diego County.The 'Eureka' grows year-round and abundantly. This is the common supermarket lemon, also known as 'Four Seasons' (Quatre Saisons) because of its ability to produce fruit and flowers together throughout the year. This variety is also available as a plant to domestic customers. There is also a pink-fleshed Eureka lemon, which's outer skin is variegated from green and yellow stripes.Vaiegated pink at the Citrus Variety Collection.The 'Femminello St. Teresa', or 'Sorrento' is native to Italy. This fruit's zest is high in lemon oils. It is the variety traditionally used in the making of limoncello.The 'Meyer' is a cross between a lemon and possibly an orange or a mandarin, and was named after Frank N. Meyer, who first discovered it in 1908. Thin-skinned and slightly less acidic than the Lisbon and Eureka lemons, Meyer lemons require more care when shipping and are not widely grown on a commercial basis. Meyer lemons have a much thinner rind, and often mature to a yellow-orange color. They are slightly more frost-tolerant than other lemons.The 'Ponderosa' is more cold-sensitive than true lemons; the fruit are thick-skinned and very large. It is likely a citron-lemon hybrid.The 'Yen Ben' is an Australasian cultivar."
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Lemon",
+          "language": "eng"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "113551056": "Plantae",
+        "115385384": "Magnoliopsida",
+        "115385599": "Sapindales",
+        "115385829": "Rutaceae",
+        "115385939": "Citrus"
+      },
+      "class": "Magnoliopsida"
+    },
+    {
+      "key": 3190171,
+      "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "nubKey": 3190171,
+      "parentKey": 3190155,
+      "parent": "Citrus",
+      "basionymKey": 7470227,
+      "basionym": "Citrus lima Lunan",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 6,
+      "phylumKey": 7707728,
+      "classKey": 220,
+      "orderKey": 933,
+      "familyKey": 2396,
+      "genusKey": 3190155,
+      "speciesKey": 3190171,
+      "scientificName": "Citrus limon (L.) Burm. fil.",
+      "canonicalName": "Citrus limon",
+      "authorship": "Burm. fil. (L.)",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "extinct": false,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [
+        {
+          "description": "The lemon (Citrus × limon) is a small evergreen tree native to Asia. The tree's ellipsoidal yellow fruit is used for culinary and non-culinary purposes throughout the world, primarily for its juice, though the pulp and rind (zest) are also used in cooking and baking. The juice of the lemon is about 5% to 6% citric acid, which gives lemons a sour taste. The distinctive sour taste of lemon juice makes it a key ingredient in drinks and foods such as lemonade and lemon meringue pie."
+        },
+        {
+          "description": "Lemon juice, rind, and zest are used in a wide variety of foods and drinks. Lemon juice is used to make lemonade, soft drinks, and cocktails. It is used in marinades for fish, where its acid neutralizes amines in fish by converting them into nonvolatile ammonium salts, and meat, where the acid partially hydrolyzes tough collagen fibers, tenderizing the meat, but the low pH denatures the proteins, causing them to dry out when cooked. Lemon juice is frequently used in the United Kingdom to add to pancakes, especially on Shrove Tuesday.Lemon juice is also used as a short-term preservative on certain foods that tend to oxidize and turn brown after being sliced (enzymatic browning), such as apples, bananas, and avocados, where its acid denatures the enzymes.Lemon juice and rind are used to make marmalade and lemon liqueur. Lemon slices and lemon rind are used as a garnish for food and drinks. Lemon zest, the grated outer rind of the fruit, is used to add flavor to baked goods, puddings, rice, and other dishes.The leaves of the lemon tree are used to make a tea and for preparing cooked meats and seafoods."
+        },
+        {
+          "description": "Lemons are often grafted to more vigorous rootstocks."
+        },
+        {
+          "description": "The origin of the lemon is unknown, though lemons are thought to have first grown in Assam (a region in northeast India), northern Burma, and China. A study of the genetic origin of the lemon reported it to be hybrid between bitter orange (sour orange) and citron.Lemons were known to the Jews of Jerusalem, who, according to Josephus, pelted an errant high priest with them during a festival in the 90s BC,Robin Lane Fox, The Unauthorized Version, 1992:116. although Jewish tradition maintains this was done with citrons (specifically the Balady citron, not lemons.Talmud Bavli Sukkah 48b They entered Europe near southern Italy no later than the first century AD, during the time of Ancient Rome. However, they were not widely cultivated. They were later introduced to Persia and then to Iraq and Egypt around 700 AD. The lemon was first recorded in literature in a 10th-century Arabic treatise on farming, and was also used as an ornamental plant in early Islamic gardens. It was distributed widely throughout the Arab world and the Mediterranean region between 1000 and 1150.The first substantial cultivation of lemons in Europe began in Genoa in the middle of the 15th century. The lemon was later introduced to the Americas in 1493 when Christopher Columbus brought lemon seeds to Hispaniola on his voyages. Spanish conquest throughout the New World helped spread lemon seeds. It was mainly used as an ornamental plant and for medicine. In the 19th century, lemons were increasingly planted in Florida and California.In 1747, James Lind's experiments on seamen suffering from scurvy involved adding lemon juice to their diets, though vitamin C was not yet known.The origin of the word \"lemon\" may be Middle Eastern. One of its earliest occurrences appears in a Middle English customs document of 1420–1421. The word draws from the Old French limon, thence the Italian limone, from the Arabic laymūn or līmūn ليمون, and from the Persian līmūn لیمو, a generic term for citrus fruit, which is a cognate of Sanskrit निम्ब (nimbū, “lime”)."
+        },
+        {
+          "description": "Many plants taste or smell similar to lemons. Certain cultivars of basil Cymbopogon (lemongrass) Lemon balm, a mint-like herbaceous perennial in the Lamiaceae family Two varieties of scented geranium: Pelargonium crispum (lemon geranium) and Pelargonium x melissinum (lemon balm) Lemon myrtle, an Australian bush food, has recently become a popular alternative to lemons.Lemon Myrtle The crushed and dried leaves and edible essential oils have a strong, sweet lemon taste, but contain no citric acid. Lemon myrtle is popular in foods that curdle with lemon juice, such as cheesecake and ice cream. Lemon thyme Lemon verbena Limes, another common sour citrus fruit, used similarly to lemons Certain cultivars of mint Magnolia grandiflora tree flowers Several cultivars of hybrid tea roses"
+        },
+        {
+          "description": "Lemons are a rich source of vitamin C, providing 64% of the Daily Value in a 100 g serving (right table). Numerous essential nutrients are also present in small amounts (right table).Lemons contain numerous phytochemicals, including polyphenols, terpenes, and tannins. As with other citrus fruits, they have significant concentrations of citric acid (about 47 g/l in the juices). Lemons left unrefrigerated for long periods of time are susceptible to mold."
+        },
+        {
+          "description": "IndustrialLemons were the primary commercial source of citric acid before the development of fermentation-based processes. As a cleaning agentThe juice of the lemon may be used for cleaning. A halved lemon dipped in salt or baking powder is used to brighten copper cookware. The acid dissolves the tarnish and the abrasives assist the cleaning. As a sanitary kitchen deodorizer the juice can deodorize, remove grease, bleach stains, and disinfect; when mixed with baking soda, it removes stains from plastic food storage containers. The oil of the lemon's peel also has various uses. It is used as a wood cleaner and polish, where its solvent property is employed to dissolve old wax, fingerprints, and grime. Lemon oil and orange oil are also used as a nontoxic insecticide treatment.A halved lemon is used as a finger moistener for those counting large amounts of bills, such as tellers and cashiers. MedicinalLemon oil may be used in aromatherapy. Lemon oil aroma does not influence the human immune system, but may enhance mood.9 Ohio State University Research, March 3, 2008 Study is published in the March 2008 issue of the journal Psychoneuroendocrinology The low pH of juice makes it antibacterial, and in India, the lemon is used in Indian traditional medicines (Siddha medicine and Ayurveda). OtherOne educational science experiment involves attaching electrodes to a lemon and using it as a battery to produce electricity. Although very low power, several lemon batteries can power a small digital watch. These experiments also work with other fruits and vegetables.Lemon juice is also sometimes used as an acid in educational science experiments.Lemon juice may be used as a simple invisible ink, developed by heat."
+        },
+        {
+          "description": "As of 2012, the world's top three lemon-producing nations by tonnage were China, India, and Mexico, which together accounted for nearly half (43.5%) of all global production. Top lemon* producing countries — 2012(in million metric tons) Rank Country Production (Tonnes) Portion of total 1 2,300,000 15.21% 2 2,200,000 14.55% 3 2,070,764 13.70% 4 1,300,000 8.60% 5 1,208,275 7.99% 6 771,110 5.10% 7 759'711 5.69% 8 625,700 4.14% 9 600,000 3.97% 10 346,325 2.29% — All others 2,936,577 19.42% — World 15,118,462 100% Source: UN Food & Agriculture Organization *Note: All figures include both lemons and limes."
+        },
+        {
+          "description": "The 'Bonnie Brae' is oblong, smooth, thin-skinned, and seedless; mostly grown in San Diego County.The 'Eureka' grows year-round and abundantly. This is the common supermarket lemon, also known as 'Four Seasons' (Quatre Saisons) because of its ability to produce fruit and flowers together throughout the year. This variety is also available as a plant to domestic customers. There is also a pink-fleshed Eureka lemon, which's outer skin is variegated from green and yellow stripes.Vaiegated pink at the Citrus Variety Collection.The 'Femminello St. Teresa', or 'Sorrento' is native to Italy. This fruit's zest is high in lemon oils. It is the variety traditionally used in the making of limoncello.The 'Meyer' is a cross between a lemon and possibly an orange or a mandarin, and was named after Frank N. Meyer, who first discovered it in 1908. Thin-skinned and slightly less acidic than the Lisbon and Eureka lemons, Meyer lemons require more care when shipping and are not widely grown on a commercial basis. Meyer lemons have a much thinner rind, and often mature to a yellow-orange color. They are slightly more frost-tolerant than other lemons.The 'Ponderosa' is more cold-sensitive than true lemons; the fruit are thick-skinned and very large. It is likely a citron-lemon hybrid.The 'Yen Ben' is an Australasian cultivar."
+        },
+        {
+          "description": "Zitronenbaum (C. × limon) in Griechenland Die Zitrone oder Limone (von „Zitrone“) ist die etwa faustgroße Frucht des Zitronenbaums (Citrus × limon) aus der Gattung der Zitruspflanzen (Citrus). Es handelt sich um eine Gruppe von Sorten, die aus einer Kreuzung zwischen Bitterorange (Citrus × aurantium) und Zitronatzitrone (Citrus medica) entstanden ist, wahrscheinlich im Norden Indiens. Um das Jahr 1000 sind erste sichere Nachweise sowohl in China als auch im Mittelmeerraum zu finden. Die immergrünen Bäume bringen länglich-ovale Früchte (die Zitronen) mit gelber oder grün-gelber Schale hervor. Das saftige, saure Fruchtfleisch enthält rund 3,5–8 % Zitronensäure und viel Vitamin C. Aus Zitronen werden Saft, Zitronensäure, ätherisches Öl und Pektin gewonnen."
+        },
+        {
+          "description": "Zitronen verlangen ein gleichmäßig warmes und feuchtes Klima, sie sind gegen Trockenheit und Kälte empfindlicher als andere kommerziell genutzte Zitrusfrüchte. Unter feuchtwarmen Bedingungen blühen und fruchten sie das ganze Jahr über. Um eine rationelle Ernte zu ermöglichen, werden die Pflanzen oft einer Stressperiode ausgesetzt (die Bewässerung wird eingestellt), nach der es dann zu einer starken Blüte kommt; die Früchte reifen dann etwa gleichzeitig.Die gärtnerische Vermehrung erfolgt über Stecklinge oder über Mikro-Vermehrung. SortenWeit verbreitete Zitronensorten sind Zagara Bianca, Lunario und Feminello Santa Teresa. Wichtige Sorten sind 'Primofiori', 'Verna', 'Interdonato', 'Eureka', 'Feminello' und 'Lisbon'. Aus der nur in der Gegend um Amalfi gezüchteten 'Sfusato Amalfitano' wird u. a. der Limoncello, ein Zitronenlikör, gewonnen. Folgende Tabelle gibt eine Übersicht über die größten Produzenten von Zitronen (einschließlich Limetten) weltweit: Die größten Produzenten von Zitronen und Limetten weltweit (2011)http://www.factfish.com/de/statistik/zitronen%20und%20limetten%2C%20produktionsmenge Rang Land Mengein kt Rang Land Mengein kt 1 2147 9 560 2 2108 10 483 3 1313 11 296 4 1228 12 260 5 1126 13 228 6 834 14 224 7 790 15 171 8 700 16 161"
+        },
+        {
+          "description": "Die Zitrone wächst als kleiner bis mittelgroßer, immergrüner Baum. Im Vergleich zu anderen Zitruspflanzen sind sie raschwüchsig und groß. Vor allem junge Triebe sind mit kleinen, dünnen Dornen besetzt. Der Austrieb ist rötlich, auch die Knospen sind rosa, die ansonsten weißen Blütenblätter auf der Unterseite rosa bis violett.Die Laubblätter sind länglich-oval bis breit lanzettlich, zugespitzt, am Rand leicht gesägt oder gekerbt. Der Blattstiel ist etwas verbreitert (geflügelt), die Blattspreite ist deutlich vom Blattstiel abgesetzt (unifoliates Blatt).Die bisweilen faulig duftenden Blüten erscheinen verteilt über das ganze Jahr in wenigblütigen Blütenständen. Sie haben einen Durchmesser von etwa 20 bis 30 Millimetern und bestehen aus fünf verwachsenen Kelchblättern sowie fünf freien Blütenblättern. Der Fruchtknoten ist dick zylinderförmig und geht in den Griffel über. Die 20 bis 40 Staubblätter sind mit den Staubfäden zu mehreren Gruppen verwachsen. Die Bestäubung erfolgt in der Regel durch Insekten, aber auch Windbestäubung und Selbstbefruchtung durch direkten Kontakt der Staubblätter mit der Narbe sind bei Citrus häufig anzutreffen. Durch Parthenokarpie, also Frucht ohne Befruchtung, kommt es zu samenlosen Früchten, aber auch, weil Citrus zum Teil pollensteril ist oder die Narbe nicht fruchtbar ist. Häufig treten Blüten auf, bei denen das Gynoeceum verkümmert ist, die also funktional männlich sind.Die Frucht (Hesperidium) besteht aus acht bis zehn Segmenten, die mit hellgelben Saftschläuchen gefüllt sind. Jedes Segment ist von einem dünnen Häutchen (Endokarp) umgeben, die ganze Frucht von einer zweigeteilten Schale. Die innere Schicht der Schale ist weiß (Mesokarp, Albedo), die äußere bei der Reife grün (Exokarp, Flavedo), in subtropischen Gebieten im Winter auch gelb. Zitronen, die in Europa auf den Markt kommen wurden meist behandelt, so dass die Schalen immer gelb sind.Orangenrot und Zitronengelb - Wann sind die Zitrusfrüchte wirklich reif?, Deutschlandradio Kultur, 11. November 2012 In der Schale sitzen zahlreiche Öldrüsen, sie verströmt einen aromatischen Duft. Auch den Blättern ist der typische Zitronengeruch eigen. An der Spitze der Frucht befindet sich meist eine kleine Ausstülpung. Die Samen sind relativ klein, glatt und zugespitzt. Im Innern sind sie weiß. Etwa 10 bis 15 % der Samen sind polyembryonisch."
+        },
+        {
+          "description": "Der Name Zitrone bezog sich früher auf die Zitronatzitrone. Erst im späten Mittelalter wurde der Name in einigen Sprachen auf die Zitrone übertragen. In anderen Sprachen wie Englisch bezieht sich die Bezeichnung citron jedoch immer noch auf die Zitronatzitrone, während die Zitrone mit dem aus dem Arabisch entlehnten Wort lemon bezeichnet wird."
+        },
+        {
+          "description": "Zitronenpresse Zitronenpulver Zitruspflanzen"
+        },
+        {
+          "description": "Umgangssprachlich stehen die Begriffe „goldene Zitrone“ und „silberne Zitrone“ als Negativpreis für fehlerhafte oder minderwertige Produkte und Dienstleistungen. Verschiedene Verbände, Institutionen und Medien initiieren gelegentlich oder regelmäßig Preisverleihungen, mit häufig eher humoristischem Charakter.Der Ausdruck, jemand habe „mit Zitronen gehandelt“, beschreibt ein Geschäft oder eine soziale Handlung, die sich zum Nachteil des Handelnden entwickelt oder gewendet hat.Siehe auch Zitronensozialismus und Lemons-Problem (im Original als „lemons problem“ bezeichnet).George A. Akerlof: The Market for \"Lemons\", in: Quarterly Journal of Economics, Vol. 84 (1970), S. 488-500."
+        },
+        {
+          "description": "Zitronen werden vor allem als Nahrung, aber auch als Zierpflanze verwendet. Theophrast empfiehlt den medischen Apfel (Zitronatzitrone) zur Abwehr von Motten. Durch James Lind wurde Zitronensaft im 18. Jahrhundert als Mittel gegen Skorbut bekannt. Vereinzelt und vermutlich erfolglos wurde Zitronensaft als Verhütungsmittel verwendet.Keith Hopkins: Contraception in the Roman Empire. Comparative Studies in Society and History. 8/1, 1965, S. 135. NahrungsmittelWillem Kalf, Stillleben um 1660, Ausschnitt Seit dem 13. Jahrhundert sind Zitronen in Europa, zunächst in Sizilien und Spanien, seit der zweiten Hälfte des 16. Jahrhunderts auch in Deutschland nachgewiesen.G. Uerscheln, M. Kalusok: Kleines Wörterbuch der europäischen Gartenkunst. Stuttgart 2001, S. 188, 276. ISBN 3-15-018115-1 (Stichworte: Orangerie und Zitrusbäumchen). Wilhelmina Jashemski geht allerdings davon aus, dass Zitronen bereits im römischen Reich angebaut wurden. In der 1964 ausgegrabenen Villa der Poppaea Sabina in Oplontis waren sie anhand von Holzresten und der Art des Anbaus nachzuweisen.Wilhelmina F. Jashemski: Ancient Roman gardens in Campania and Tunisia: A comparison of the evidence. Journal of Garden History 16/4, 1996, S. 239 (). Zitronen sind laut Jashemski auch auf Wandgemälden in Pompeii abgebildet. Aus dem Mittelalter sind auch Rezepte mit Zitronen überliefert.m.w.N. Zitronensaft löste in der mittelalterlichen Küche den Verjus, einen Saft aus unreifen Trauben, als Säuerungsmittel ab. Im Barock waren die Pflanzen als Dekoration in der Gartenarchitektur als Symbol (man verstand die Zitronen als die goldenen Äpfel der Hesperiden), aber auch wegen ihres Duftes und Geschmacks sehr beliebt. Im 17. und 18. Jahrhundert entstand eine regelrechte Orangeriekultur. In der bildenden Kunst erscheinen Zitronen seit dem späten 16. Jahrhundert als Bestandteile von Dessert- oder Frühstücksstillleben. Willem Kalf (1619–1693) oder Jan Davidsz. de Heem (1606–1683/84) legen kunstvoll spiralig geschälte Zitronen neben oder in kostbare Pokale und Gläser, vermutlich um den Wein zu aromatisieren.N. Schneider: Stilleben. Köln 1994, S. 111. ISBN 3-8228-0398-7 Die geschälten Zitronen wurden dazu direkt in den Wein gelegt. In zahlreichen Rezepten der frühen Neuzeit werden Zitronen oder Zitronensaft verwendet. So sollen nach einer „Underweisung, wie man nach Französischer Art ein großes Panquet anstellen solle“ aus dem Jahr 1679 zu knusprig gebratenem Wild und Geflügel „in kleinen Schüsseln auffgesetzt, Pommerantzen, Citronen, Oliven und dergleichen“ gereicht werden.Zit. nach J. Anderegg: Deutsches Lesebuch. Bd 1/1. Das Zeitalter des Barock. Frankfurt 1970, S. 44–46. Der Berliner Botaniker Johann Sigismund Elsholtz erwähnt Zitrusfrüchte, darunter auch Zitronen, 1682 in seinem Diäteticon, einem Koch- und Diätbuch.Die abgeriebene Schale der Zitrone wird gerne als aromatisierende Zutat in der Küche und beim Backen verwendet, siehe Zitronengelb. Zum Verzehr geeignet ist nur die Schale einer unbehandelten Zitrone; Zitrusfrüchte werden vor dem Transport meist mit einer wachsartigen Schutzschicht überzogen und mit Konservierungsmitteln wie Thiabendazol (E233) besprüht. Früher kam auch Biphenyl (E230) zum Einsatz. Der Verzehr solcher Schalen gilt als ungesund. Unbehandelte Zitronenschalen werden zu Zitronenöl weiterverarbeitet.Die manchmal als „Zitronenblätter“ bezeichneten Blätter der Kaffernlimette werden vor allem in der thailändischen Küche gebraucht. InhaltsstoffeWie alle Zitrusfrüchte ist die Zitrone reich an Phosphor und Pektin. 100 Gramm Zitrone enthalten:EU Nährwertkennzeichnungsrichtlinie (EU NWKRL 90/496/EWG)Rewe Nährwerttabelle kcal kJ Wasser Fett Kalium Calcium Magnesium Phosphor Vitamin C 35–56  151–235  84–90 g  0,6 g  149 mg  11 mg 28 mg 20 mg 51 mg 7 %* 1 %* 9 %* 3 %* 71 %* * Anteil am Tagesbedarf eines Erwachsenen HeilpflanzeAls Heildrogen werden verwendet:Zitronenöl d.h. das ätherische Öl aus den frischen Fruchtschalen. Die Zitronenschalen, d.h. die getrocknete bzw. frische äußere Schicht der Fruchtwand. Wirkstoffe Ätherisches Öl mit Limonen (65–70 %) und dem für den Geruch typischen Citral. In den Fruchtschalen außerdem die bitter schmeckenden Flavonoide Neohesperidin und Naringenin, das nicht bittere Rutin; Hydroxycumarine, Furanocumarine, Zitronensäure und Pektine. AnwendungHäufig findet man die Zitronenschale in Hausteemischungen bzw. in Früchtetees. Die Verwendung des ätherischen Öls erfolgt vor allem als Geschmacks- und Geruchskorrigens, in Einreibungen zuweilen auch als leichtes Hautreizmittel. Isolierte Citrus-Flavonoide sind in Präparaten gegen Venenerkrankungen und in solchen gegen grippale Infekte enthalten. ZierpflanzeZitronenbäume gedeihen auch in Mitteleuropa, früher waren sie fester Bestandteil von Orangerien. Eine Besonderheit des Zitronenbaums ist, dass dieser ganzjährig gleichzeitig Blüten wie Früchte trägt. Von Mitte Mai bis zum ersten Frost sollte die Zitrone im Freien stehen, an einem windgeschützten Platz. Im Winter muss die Temperatur an die Lichtverhältnisse angepasst werden. Werden die Zitronenbäume hell, aber kalt gestellt, so haben die Blätter zwar noch ausreichend Licht zur Photosynthese, allerdings stellen die Wurzeln bereits bei 12,5 °C die Aktivität beinahe vollständig ein. Dies hat zur Folge, dass der Baum die Blätter nicht mehr ausreichend versorgen kann und er wirft diese in weiterer Folge ab. Es kommt zum sogenannten „Winter Leaf Drop“. Als häufige Schädlinge kommen Schildläuse vor."
+        },
+        {
+          "description": "SE-Asia (introduced), S-Europe (introduced), Nepal (introduced), Anatolia (introduced), Australia (introduced) (Queensland (introduced), New South Wales (introduced)), Java (introduced), Galapagos Isl. (introduced), Jamaica (introduced), Cuba (introduced), Nicaragua (introduced), Peru (introduced), Bahamas (introduced), Panama (introduced), Belize (introduced), Brazil (introduced), Venezuela (introduced), Puerto Rico (introduced), Haiti (introduced), Dominican Republic (introduced), Mexico (introduced), Colombia (introduced), Lord Howe Isl. (introduced), trop. Africa (introduced), Fiji (introduced), Taiwan (introduced), Korea (introduced), China (introduced), Vietnam (introduced), Cambodia (introduced), Burma (introduced), India (introduced), Cook Isl. (introduced) (Rarotonga (introduced)), Gilbert Isl. (introduced), Marshall Isl. (introduced) (Jaluit (introduced)), Micronesia (introduced) (Ifaluk (introduced), Kosrae (introduced)), Niue (introduced), Palau Isl. (introduced), Society Isl. (introduced) (Tahiti (introduced), Raiatea (introduced)), Southern Marianas (introduced) (Guam (introduced)), Tokelau (introduced) (Nukunonu (introduced)), Austral Isl. (introduced) (Tubuai (introduced)), Andamans (introduced), Nicobars (introduced), Sri Lanka (introduced), Pakistan (introduced), USA (introduced) (Florida (introduced)), Madeira (c), Canary Isl. (c), Morocco (c), Egypt (c)"
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "lemon",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "Lemon",
+          "language": ""
+        },
+        {
+          "vernacularName": "Limón",
+          "language": ""
+        },
+        {
+          "vernacularName": "Zitrone",
+          "language": ""
+        },
+        {
+          "vernacularName": "Zitrone",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "Lemon",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "lemon",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "li meng",
+          "language": ""
+        },
+        {
+          "vernacularName": "ning meng",
+          "language": ""
+        },
+        {
+          "vernacularName": "citronnier",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Zitrone",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "limão",
+          "language": "por"
+        },
+        {
+          "vernacularName": "limão-eureka",
+          "language": ""
+        },
+        {
+          "vernacularName": "limão-gênova",
+          "language": ""
+        },
+        {
+          "vernacularName": "limão-siciliano",
+          "language": ""
+        },
+        {
+          "vernacularName": "limão-verdadeiro",
+          "language": ""
+        },
+        {
+          "vernacularName": "limón",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "limoeiro",
+          "language": ""
+        },
+        {
+          "vernacularName": "limoeiro-azedo",
+          "language": "por"
+        },
+        {
+          "vernacularName": "limone",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "limonero",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "limonier",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "limum",
+          "language": ""
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "6": "Plantae",
+        "220": "Magnoliopsida",
+        "933": "Sapindales",
+        "2396": "Rutaceae",
+        "3190155": "Citrus",
+        "7707728": "Tracheophyta"
+      },
+      "class": "Magnoliopsida"
+    },
+    {
+      "key": 100368722,
+      "datasetKey": "16c3f9cb-4b19-4553-ac8e-ebb90003aa02",
+      "nubKey": 3190171,
+      "parentKey": 115186094,
+      "parent": "Citrus",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "classKey": 115183253,
+      "orderKey": 100368551,
+      "familyKey": 100368717,
+      "genusKey": 115186094,
+      "speciesKey": 100368722,
+      "scientificName": "Citrus ×limon (L.) Burm.f.",
+      "canonicalName": "Citrus limon",
+      "authorship": "Burm. f. (L.)",
+      "nameType": "SCIENTIFIC",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [
+        {
+          "description": "Zitronenbaum (C. × limon) in Griechenland Die Zitrone oder Limone (von „Zitrone“) ist die etwa faustgroße Frucht des Zitronenbaums (Citrus × limon) aus der Gattung der Zitruspflanzen (Citrus). Es handelt sich um eine Gruppe von Sorten, die aus einer Kreuzung zwischen Bitterorange (Citrus × aurantium) und Zitronatzitrone (Citrus medica) entstanden ist, wahrscheinlich im Norden Indiens. Um das Jahr 1000 sind erste sichere Nachweise sowohl in China als auch im Mittelmeerraum zu finden. Die immergrünen Bäume bringen länglich-ovale Früchte (die Zitronen) mit gelber oder grün-gelber Schale hervor. Das saftige, saure Fruchtfleisch enthält rund 3,5–8 % Zitronensäure und viel Vitamin C. Aus Zitronen werden Saft, Zitronensäure, ätherisches Öl und Pektin gewonnen."
+        },
+        {
+          "description": "Zitronen verlangen ein gleichmäßig warmes und feuchtes Klima, sie sind gegen Trockenheit und Kälte empfindlicher als andere kommerziell genutzte Zitrusfrüchte. Unter feuchtwarmen Bedingungen blühen und fruchten sie das ganze Jahr über. Um eine rationelle Ernte zu ermöglichen, werden die Pflanzen oft einer Stressperiode ausgesetzt (die Bewässerung wird eingestellt), nach der es dann zu einer starken Blüte kommt; die Früchte reifen dann etwa gleichzeitig.Die gärtnerische Vermehrung erfolgt über Stecklinge oder über Mikro-Vermehrung. SortenWeit verbreitete Zitronensorten sind Zagara Bianca, Lunario und Feminello Santa Teresa. Wichtige Sorten sind 'Primofiori', 'Verna', 'Interdonato', 'Eureka', 'Feminello' und 'Lisbon'. Aus der nur in der Gegend um Amalfi gezüchteten 'Sfusato Amalfitano' wird u. a. der Limoncello, ein Zitronenlikör, gewonnen. Folgende Tabelle gibt eine Übersicht über die größten Produzenten von Zitronen (einschließlich Limetten) weltweit: Die größten Produzenten von Zitronen und Limetten weltweit (2011)http://www.factfish.com/de/statistik/zitronen%20und%20limetten%2C%20produktionsmenge Rang Land Mengein kt Rang Land Mengein kt 1 2147 9 560 2 2108 10 483 3 1313 11 296 4 1228 12 260 5 1126 13 228 6 834 14 224 7 790 15 171 8 700 16 161"
+        },
+        {
+          "description": "Die Zitrone wächst als kleiner bis mittelgroßer, immergrüner Baum. Im Vergleich zu anderen Zitruspflanzen sind sie raschwüchsig und groß. Vor allem junge Triebe sind mit kleinen, dünnen Dornen besetzt. Der Austrieb ist rötlich, auch die Knospen sind rosa, die ansonsten weißen Blütenblätter auf der Unterseite rosa bis violett.Die Laubblätter sind länglich-oval bis breit lanzettlich, zugespitzt, am Rand leicht gesägt oder gekerbt. Der Blattstiel ist etwas verbreitert (geflügelt), die Blattspreite ist deutlich vom Blattstiel abgesetzt (unifoliates Blatt).Die bisweilen faulig duftenden Blüten erscheinen verteilt über das ganze Jahr in wenigblütigen Blütenständen. Sie haben einen Durchmesser von etwa 20 bis 30 Millimetern und bestehen aus fünf verwachsenen Kelchblättern sowie fünf freien Blütenblättern. Der Fruchtknoten ist dick zylinderförmig und geht in den Griffel über. Die 20 bis 40 Staubblätter sind mit den Staubfäden zu mehreren Gruppen verwachsen. Die Bestäubung erfolgt in der Regel durch Insekten, aber auch Windbestäubung und Selbstbefruchtung durch direkten Kontakt der Staubblätter mit der Narbe sind bei Citrus häufig anzutreffen. Durch Parthenokarpie, also Frucht ohne Befruchtung, kommt es zu samenlosen Früchten, aber auch, weil Citrus zum Teil pollensteril ist oder die Narbe nicht fruchtbar ist. Häufig treten Blüten auf, bei denen das Gynoeceum verkümmert ist, die also funktional männlich sind.Die Frucht (Hesperidium) besteht aus acht bis zehn Segmenten, die mit hellgelben Saftschläuchen gefüllt sind. Jedes Segment ist von einem dünnen Häutchen (Endokarp) umgeben, die ganze Frucht von einer zweigeteilten Schale. Die innere Schicht der Schale ist weiß (Mesokarp, Albedo), die äußere bei der Reife grün (Exokarp, Flavedo), in subtropischen Gebieten im Winter auch gelb. Zitronen, die in Europa auf den Markt kommen wurden meist behandelt, so dass die Schalen immer gelb sind.Orangenrot und Zitronengelb - Wann sind die Zitrusfrüchte wirklich reif?, Deutschlandradio Kultur, 11. November 2012 In der Schale sitzen zahlreiche Öldrüsen, sie verströmt einen aromatischen Duft. Auch den Blättern ist der typische Zitronengeruch eigen. An der Spitze der Frucht befindet sich meist eine kleine Ausstülpung. Die Samen sind relativ klein, glatt und zugespitzt. Im Innern sind sie weiß. Etwa 10 bis 15 % der Samen sind polyembryonisch."
+        },
+        {
+          "description": "Der Name Zitrone bezog sich früher auf die Zitronatzitrone. Erst im späten Mittelalter wurde der Name in einigen Sprachen auf die Zitrone übertragen. In anderen Sprachen wie Englisch bezieht sich die Bezeichnung citron jedoch immer noch auf die Zitronatzitrone, während die Zitrone mit dem aus dem Arabisch entlehnten Wort lemon bezeichnet wird."
+        },
+        {
+          "description": "Zitronenpresse Zitronenpulver Zitruspflanzen"
+        },
+        {
+          "description": "Umgangssprachlich stehen die Begriffe „goldene Zitrone“ und „silberne Zitrone“ als Negativpreis für fehlerhafte oder minderwertige Produkte und Dienstleistungen. Verschiedene Verbände, Institutionen und Medien initiieren gelegentlich oder regelmäßig Preisverleihungen, mit häufig eher humoristischem Charakter.Der Ausdruck, jemand habe „mit Zitronen gehandelt“, beschreibt ein Geschäft oder eine soziale Handlung, die sich zum Nachteil des Handelnden entwickelt oder gewendet hat.Siehe auch Zitronensozialismus und Lemons-Problem (im Original als „lemons problem“ bezeichnet).George A. Akerlof: The Market for \"Lemons\", in: Quarterly Journal of Economics, Vol. 84 (1970), S. 488-500."
+        },
+        {
+          "description": "Zitronen werden vor allem als Nahrung, aber auch als Zierpflanze verwendet. Theophrast empfiehlt den medischen Apfel (Zitronatzitrone) zur Abwehr von Motten. Durch James Lind wurde Zitronensaft im 18. Jahrhundert als Mittel gegen Skorbut bekannt. Vereinzelt und vermutlich erfolglos wurde Zitronensaft als Verhütungsmittel verwendet.Keith Hopkins: Contraception in the Roman Empire. Comparative Studies in Society and History. 8/1, 1965, S. 135. NahrungsmittelWillem Kalf, Stillleben um 1660, Ausschnitt Seit dem 13. Jahrhundert sind Zitronen in Europa, zunächst in Sizilien und Spanien, seit der zweiten Hälfte des 16. Jahrhunderts auch in Deutschland nachgewiesen.G. Uerscheln, M. Kalusok: Kleines Wörterbuch der europäischen Gartenkunst. Stuttgart 2001, S. 188, 276. ISBN 3-15-018115-1 (Stichworte: Orangerie und Zitrusbäumchen). Wilhelmina Jashemski geht allerdings davon aus, dass Zitronen bereits im römischen Reich angebaut wurden. In der 1964 ausgegrabenen Villa der Poppaea Sabina in Oplontis waren sie anhand von Holzresten und der Art des Anbaus nachzuweisen.Wilhelmina F. Jashemski: Ancient Roman gardens in Campania and Tunisia: A comparison of the evidence. Journal of Garden History 16/4, 1996, S. 239 (). Zitronen sind laut Jashemski auch auf Wandgemälden in Pompeii abgebildet. Aus dem Mittelalter sind auch Rezepte mit Zitronen überliefert.m.w.N. Zitronensaft löste in der mittelalterlichen Küche den Verjus, einen Saft aus unreifen Trauben, als Säuerungsmittel ab. Im Barock waren die Pflanzen als Dekoration in der Gartenarchitektur als Symbol (man verstand die Zitronen als die goldenen Äpfel der Hesperiden), aber auch wegen ihres Duftes und Geschmacks sehr beliebt. Im 17. und 18. Jahrhundert entstand eine regelrechte Orangeriekultur. In der bildenden Kunst erscheinen Zitronen seit dem späten 16. Jahrhundert als Bestandteile von Dessert- oder Frühstücksstillleben. Willem Kalf (1619–1693) oder Jan Davidsz. de Heem (1606–1683/84) legen kunstvoll spiralig geschälte Zitronen neben oder in kostbare Pokale und Gläser, vermutlich um den Wein zu aromatisieren.N. Schneider: Stilleben. Köln 1994, S. 111. ISBN 3-8228-0398-7 Die geschälten Zitronen wurden dazu direkt in den Wein gelegt. In zahlreichen Rezepten der frühen Neuzeit werden Zitronen oder Zitronensaft verwendet. So sollen nach einer „Underweisung, wie man nach Französischer Art ein großes Panquet anstellen solle“ aus dem Jahr 1679 zu knusprig gebratenem Wild und Geflügel „in kleinen Schüsseln auffgesetzt, Pommerantzen, Citronen, Oliven und dergleichen“ gereicht werden.Zit. nach J. Anderegg: Deutsches Lesebuch. Bd 1/1. Das Zeitalter des Barock. Frankfurt 1970, S. 44–46. Der Berliner Botaniker Johann Sigismund Elsholtz erwähnt Zitrusfrüchte, darunter auch Zitronen, 1682 in seinem Diäteticon, einem Koch- und Diätbuch.Die abgeriebene Schale der Zitrone wird gerne als aromatisierende Zutat in der Küche und beim Backen verwendet, siehe Zitronengelb. Zum Verzehr geeignet ist nur die Schale einer unbehandelten Zitrone; Zitrusfrüchte werden vor dem Transport meist mit einer wachsartigen Schutzschicht überzogen und mit Konservierungsmitteln wie Thiabendazol (E233) besprüht. Früher kam auch Biphenyl (E230) zum Einsatz. Der Verzehr solcher Schalen gilt als ungesund. Unbehandelte Zitronenschalen werden zu Zitronenöl weiterverarbeitet.Die manchmal als „Zitronenblätter“ bezeichneten Blätter der Kaffernlimette werden vor allem in der thailändischen Küche gebraucht. InhaltsstoffeWie alle Zitrusfrüchte ist die Zitrone reich an Phosphor und Pektin. 100 Gramm Zitrone enthalten:EU Nährwertkennzeichnungsrichtlinie (EU NWKRL 90/496/EWG)Rewe Nährwerttabelle kcal kJ Wasser Fett Kalium Calcium Magnesium Phosphor Vitamin C 35–56  151–235  84–90 g  0,6 g  149 mg  11 mg 28 mg 20 mg 51 mg 7 %* 1 %* 9 %* 3 %* 71 %* * Anteil am Tagesbedarf eines Erwachsenen HeilpflanzeAls Heildrogen werden verwendet:Zitronenöl d.h. das ätherische Öl aus den frischen Fruchtschalen. Die Zitronenschalen, d.h. die getrocknete bzw. frische äußere Schicht der Fruchtwand. Wirkstoffe Ätherisches Öl mit Limonen (65–70 %) und dem für den Geruch typischen Citral. In den Fruchtschalen außerdem die bitter schmeckenden Flavonoide Neohesperidin und Naringenin, das nicht bittere Rutin; Hydroxycumarine, Furanocumarine, Zitronensäure und Pektine. AnwendungHäufig findet man die Zitronenschale in Hausteemischungen bzw. in Früchtetees. Die Verwendung des ätherischen Öls erfolgt vor allem als Geschmacks- und Geruchskorrigens, in Einreibungen zuweilen auch als leichtes Hautreizmittel. Isolierte Citrus-Flavonoide sind in Präparaten gegen Venenerkrankungen und in solchen gegen grippale Infekte enthalten. ZierpflanzeZitronenbäume gedeihen auch in Mitteleuropa, früher waren sie fester Bestandteil von Orangerien. Eine Besonderheit des Zitronenbaums ist, dass dieser ganzjährig gleichzeitig Blüten wie Früchte trägt. Von Mitte Mai bis zum ersten Frost sollte die Zitrone im Freien stehen, an einem windgeschützten Platz. Im Winter muss die Temperatur an die Lichtverhältnisse angepasst werden. Werden die Zitronenbäume hell, aber kalt gestellt, so haben die Blätter zwar noch ausreichend Licht zur Photosynthese, allerdings stellen die Wurzeln bereits bei 12,5 °C die Aktivität beinahe vollständig ein. Dies hat zur Folge, dass der Baum die Blätter nicht mehr ausreichend versorgen kann und er wirft diese in weiterer Folge ab. Es kommt zum sogenannten „Winter Leaf Drop“. Als häufige Schädlinge kommen Schildläuse vor."
+        }
+      ],
+      "vernacularNames": [
+        {
+          "vernacularName": "Zitrone",
+          "language": "deu"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "100368551": "Sapindales",
+        "100368717": "Rutaceae",
+        "115183253": "Magnoliopsida",
+        "115186094": "Citrus"
+      },
+      "class": "Magnoliopsida"
+    },
+    {
+      "key": 114912926,
+      "datasetKey": "ee2aac07-de9a-47a2-b828-37430d537633",
+      "nubKey": 3190171,
+      "parentKey": 114994630,
+      "parent": "Citrus",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 114991342,
+      "phylumKey": 114993928,
+      "classKey": 114994101,
+      "orderKey": 114994596,
+      "familyKey": 114994626,
+      "genusKey": 114994630,
+      "speciesKey": 114912926,
+      "scientificName": "Citrus limon",
+      "canonicalName": "Citrus limon",
+      "authorship": "",
+      "nameType": "SCIENTIFIC",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": false,
+      "higherClassificationMap": {
+        "114991342": "Plantae",
+        "114993928": "Tracheophyta",
+        "114994101": "Magnoliopsida",
+        "114994596": "Sapindales",
+        "114994626": "Rutaceae",
+        "114994630": "Citrus"
+      },
+      "class": "Magnoliopsida"
+    },
+    {
+      "key": 119514814,
+      "datasetKey": "60a0cc08-2ae7-428f-a300-d39b9a13f50e",
+      "parentKey": 119514809,
+      "parent": "Prostigmata",
+      "acceptedKey": 119514811,
+      "accepted": "Tenuipalpidae",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "order": "Prostigmata",
+      "family": "Tenuipalpidae",
+      "kingdomKey": 119514786,
+      "phylumKey": 119514805,
+      "classKey": 119514807,
+      "orderKey": 119514809,
+      "familyKey": 119514811,
+      "scientificName": "Citrus limon",
+      "canonicalName": "Citrus limon",
+      "authorship": "",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "SYNONYM",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": true,
+      "higherClassificationMap": {
+        "119514786": "Animalia",
+        "119514805": "Arthropoda",
+        "119514807": "Arachnida",
+        "119514809": "Prostigmata",
+        "119514811": "Tenuipalpidae"
+      },
+      "class": "Arachnida"
+    },
+    {
+      "key": 119328279,
+      "datasetKey": "a6c6cead-b5ce-4a4e-8cf5-1542ba708dec",
+      "nubKey": 3190171,
+      "parentKey": 113942105,
+      "parent": "Citrus",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "order": "Sapindales",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 119367114,
+      "phylumKey": 119367119,
+      "classKey": 119367244,
+      "orderKey": 119367467,
+      "familyKey": 119367469,
+      "genusKey": 113942105,
+      "speciesKey": 119328279,
+      "scientificName": "Citrus limon (L.) Burm. f.",
+      "canonicalName": "Citrus limon",
+      "authorship": "Burm. f. (L.)",
+      "nameType": "SCIENTIFIC",
+      "taxonomicStatus": "ACCEPTED",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": false,
+      "higherClassificationMap": {
+        "113942105": "Citrus",
+        "119367114": "Plantae",
+        "119367119": "Magnoliophyta",
+        "119367244": "Eudicots",
+        "119367467": "Sapindales",
+        "119367469": "Rutaceae"
+      },
+      "class": "Eudicots"
+    },
+    {
+      "key": 101427822,
+      "datasetKey": "66dd0960-2d7d-46ee-a491-87b9adcfe7b1",
+      "nubKey": 3190171,
+      "parentKey": 101427718,
+      "parent": "Citrus",
+      "kingdom": "Plantae",
+      "family": "Rutaceae",
+      "genus": "Citrus",
+      "species": "Citrus limon",
+      "kingdomKey": 120785520,
+      "familyKey": 101427613,
+      "genusKey": 101427718,
+      "speciesKey": 101427822,
+      "scientificName": "Citrus limon (L.) Burm. f.",
+      "canonicalName": "Citrus limon",
+      "authorship": "(L.) Burm. f.",
+      "publishedIn": "Fl. indica 173.  1768",
+      "nameType": "SCIENTIFIC",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "taxonID": "10732",
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [
+        {
+          "vernacularName": "lemon",
+          "language": "eng"
+        },
+        {
+          "vernacularName": "citronnier",
+          "language": "fra"
+        },
+        {
+          "vernacularName": "Zitrone",
+          "language": "deu"
+        },
+        {
+          "vernacularName": "limão",
+          "language": "por"
+        },
+        {
+          "vernacularName": "limón",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "limoeiro-azedo",
+          "language": "por"
+        },
+        {
+          "vernacularName": "limone",
+          "language": "ita"
+        },
+        {
+          "vernacularName": "limonero",
+          "language": "spa"
+        },
+        {
+          "vernacularName": "limonier",
+          "language": "fra"
+        }
+      ],
+      "synonym": false,
+      "higherClassificationMap": {
+        "101427613": "Rutaceae",
+        "101427718": "Citrus",
+        "120785520": "Plantae"
+      }
+    },
+    {
+      "key": 105600622,
+      "datasetKey": "046bbc50-cae2-47ff-aa43-729fbf53f7c5",
+      "nubKey": 3190171,
+      "parentKey": 115511576,
+      "parent": "Rutaceae",
+      "kingdom": "Plantae",
+      "family": "Rutaceae",
+      "species": "Citrus limon",
+      "kingdomKey": 115511107,
+      "familyKey": 115511576,
+      "speciesKey": 105600622,
+      "scientificName": "Citrus limon (L.) Burm.f.",
+      "canonicalName": "Citrus limon",
+      "authorship": "Burm. f. (L.)",
+      "nameType": "SCIENTIFIC",
+      "rank": "SPECIES",
+      "numDescendants": 0,
+      "numOccurrences": 0,
+      "habitats": [],
+      "nomenclaturalStatus": [],
+      "threatStatuses": [],
+      "descriptions": [],
+      "vernacularNames": [],
+      "synonym": false,
+      "higherClassificationMap": {
+        "115511107": "Plantae",
+        "115511576": "Rutaceae"
+      }
+    }
+  ],
+  "facets": []
+}
+
+https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=lemon&prop=info&inprop=url
+This is the HTML representation of the JSON format. HTML is good for debugging, but is unsuitable for application use.
+Specify the format parameter to change the output format. To see the non-HTML representation of the JSON format, set format=json.
+See the complete documentation, or the API help for more information.
+{
+    "batchcomplete": "",
+    "continue": {
+        "gsroffset": 10,
+        "continue": "gsroffset||"
+    },
+    "query": {
+        "pages": {
+            "541631": {
+                "pageid": 541631,
+                "ns": 0,
+                "title": "Bob Lemon",
+                "index": 9,
+                "contentmodel": "wikitext",
+                "pagelanguage": "en",
+                "pagelanguagehtmlcode": "en",
+                "pagelanguagedir": "ltr",
+                "touched": "2016-06-06T03:41:07Z",
+                "lastrevid": 712238983,
+                "length": 58749,
+                "fullurl": "https://en.wikipedia.org/wiki/Bob_Lemon",
+                "editurl": "https://en.wikipedia.org/w/index.php?title=Bob_Lemon&action=edit",
+                "canonicalurl": "https://en.wikipedia.org/wiki/Bob_Lemon"
+            },
+            "413694": {
+                "pageid": 413694,
+                "ns": 0,
+                "title": "Cream Lemon",
+                "index": 8,
+                "contentmodel": "wikitext",
+                "pagelanguage": "en",
+                "pagelanguagehtmlcode": "en",
+                "pagelanguagedir": "ltr",
+                "touched": "2016-06-06T00:33:10Z",
+                "lastrevid": 701180547,
+                "length": 8753,
+                "fullurl": "https://en.wikipedia.org/wiki/Cream_Lemon",
+                "editurl": "https://en.wikipedia.org/w/index.php?title=Cream_Lemon&action=edit",
+                "canonicalurl": "https://en.wikipedia.org/wiki/Cream_Lemon"
+            },
+            "7596555": {
+                "pageid": 7596555,
+                "ns": 0,
+                "title": "Imperial lemon",
+                "index": 3,
+                "contentmodel": "wikitext",
+                "pagelanguage": "en",
+                "pagelanguagehtmlcode": "en",
+                "pagelanguagedir": "ltr",
+                "touched": "2016-05-14T00:25:34Z",
+                "lastrevid": 712559974,
+                "length": 1327,
+                "fullurl": "https://en.wikipedia.org/wiki/Imperial_lemon",
+                "editurl": "https://en.wikipedia.org/w/index.php?title=Imperial_lemon&action=edit",
+                "canonicalurl": "https://en.wikipedia.org/wiki/Imperial_lemon"
+            },
+            "21299730": {
+                "pageid": 21299730,
+                "ns": 0,
+                "title": "Lemon",
+                "index": 1,
+                "contentmodel": "wikitext",
+                "pagelanguage": "en",
+                "pagelanguagehtmlcode": "en",
+                "pagelanguagedir": "ltr",
+                "touched": "2016-06-03T14:36:00Z",
+                "lastrevid": 723243968,
+                "length": 16470,
+                "fullurl": "https://en.wikipedia.org/wiki/Lemon",
+                "editurl": "https://en.wikipedia.org/w/index.php?title=Lemon&action=edit",
+                "canonicalurl": "https://en.wikipedia.org/wiki/Lemon"
+            },
+            "4723024": {
+                "pageid": 4723024,
+                "ns": 0,
+                "title": "Lemon-lime drink",
+                "index": 2,
+                "contentmodel": "wikitext",
+                "pagelanguage": "en",
+                "pagelanguagehtmlcode": "en",
+                "pagelanguagedir": "ltr",
+                "touched": "2016-05-31T23:46:05Z",
+                "lastrevid": 723094327,
+                "length": 1807,
+                "fullurl": "https://en.wikipedia.org/wiki/Lemon-lime_drink",
+                "editurl": "https://en.wikipedia.org/w/index.php?title=Lemon-lime_drink&action=edit",
+                "canonicalurl": "https://en.wikipedia.org/wiki/Lemon-lime_drink"
+            },
+            "34922589": {
+                "pageid": 34922589,
+                "ns": 0,
+                "title": "Lemon Drop",
+                "index": 7,
+                "contentmodel": "wikitext",
+                "pagelanguage": "en",
+                "pagelanguagehtmlcode": "en",
+                "pagelanguagedir": "ltr",
+                "touched": "2016-06-01T20:45:03Z",
+                "lastrevid": 719489649,
+                "length": 18727,
+                "fullurl": "https://en.wikipedia.org/wiki/Lemon_Drop",
+                "editurl": "https://en.wikipedia.org/w/index.php?title=Lemon_Drop&action=edit",
+                "canonicalurl": "https://en.wikipedia.org/wiki/Lemon_Drop"
+            },
+            "390441": {
+                "pageid": 390441,
+                "ns": 0,
+                "title": "Lemon meringue pie",
+                "index": 5,
+                "contentmodel": "wikitext",
+                "pagelanguage": "en",
+                "pagelanguagehtmlcode": "en",
+                "pagelanguagedir": "ltr",
+                "touched": "2016-06-06T03:34:32Z",
+                "lastrevid": 719283055,
+                "length": 3025,
+                "fullurl": "https://en.wikipedia.org/wiki/Lemon_meringue_pie",
+                "editurl": "https://en.wikipedia.org/w/index.php?title=Lemon_meringue_pie&action=edit",
+                "canonicalurl": "https://en.wikipedia.org/wiki/Lemon_meringue_pie"
+            },
+            "11065418": {
+                "pageid": 11065418,
+                "ns": 0,
+                "title": "Lemon pepper",
+                "index": 10,
+                "contentmodel": "wikitext",
+                "pagelanguage": "en",
+                "pagelanguagehtmlcode": "en",
+                "pagelanguagedir": "ltr",
+                "touched": "2016-05-16T00:09:30Z",
+                "lastrevid": 684671980,
+                "length": 925,
+                "fullurl": "https://en.wikipedia.org/wiki/Lemon_pepper",
+                "editurl": "https://en.wikipedia.org/w/index.php?title=Lemon_pepper&action=edit",
+                "canonicalurl": "https://en.wikipedia.org/wiki/Lemon_pepper"
+            },
+            "44653573": {
+                "pageid": 44653573,
+                "ns": 0,
+                "title": "Rough lemon",
+                "index": 6,
+                "contentmodel": "wikitext",
+                "pagelanguage": "en",
+                "pagelanguagehtmlcode": "en",
+                "pagelanguagedir": "ltr",
+                "touched": "2016-05-26T13:06:03Z",
+                "lastrevid": 704706703,
+                "length": 1354,
+                "fullurl": "https://en.wikipedia.org/wiki/Rough_lemon",
+                "editurl": "https://en.wikipedia.org/w/index.php?title=Rough_lemon&action=edit",
+                "canonicalurl": "https://en.wikipedia.org/wiki/Rough_lemon"
+            },
+            "45263826": {
+                "pageid": 45263826,
+                "ns": 0,
+                "title": "Variegated pink lemon",
+                "index": 4,
+                "contentmodel": "wikitext",
+                "pagelanguage": "en",
+                "pagelanguagehtmlcode": "en",
+                "pagelanguagedir": "ltr",
+                "touched": "2016-05-26T13:06:03Z",
+                "lastrevid": 689597683,
+                "length": 866,
+                "fullurl": "https://en.wikipedia.org/wiki/Variegated_pink_lemon",
+                "editurl": "https://en.wikipedia.org/w/index.php?title=Variegated_pink_lemon&action=edit",
+                "canonicalurl": "https://en.wikipedia.org/wiki/Variegated_pink_lemon"
+            }
+        }
+    }
+}
