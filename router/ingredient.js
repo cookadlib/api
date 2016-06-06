@@ -1,50 +1,69 @@
 import Router from 'koa-router';
 
-import {dependencies} from 'needlepoint';
+import firebase, {db, sanitiseId} from '../instance/firebase';
 
-@dependencies(IngredientModel)
-export default class IngredientRouter {
+import {search} from '../instance/google-kgsearch';
+import {mediawiki} from '../instance/nodemw';
 
-  constructor(model) {
-    this.model = model;
-    this.router = new Router();
+const location = db.ref('ingredient');
 
-    this.defineRoutes();
-  }
+const router = Router();
 
-  defineRoutes() {
+router.get('/', async (ctx, next) => {
+  await location.once('value').then((snapshot) => {
+    ctx.body = snapshot.val();
+    return next();
+  }, error => {
+    ctx.status = 500;
+    ctx.body = error;
+    return next();
+  });
+});
 
-    this.router.get('/', async (ctx, next) => {
-      await this.model.find().then(function(data) {
-        ctx.body = data;
-        next();
-      });
-    });
+router.get('/:id', async (ctx, next) => {
+  await location.child(ctx.params.id).once('value').then((snapshot) => {
+    ctx.body = snapshot.val();
+    return next();
+  }, error => {
+    ctx.status = 500;
+    ctx.body = error;
+    return next();
+  });
+});
 
-    this.router.get('/:id', async (ctx, next) => {
-      await this.model.findById(ctx.params.id).then(function(data) {
-        ctx.body = data;
-        next();
-      });
-    });
-
-    this.router.post('/', async (ctx, next) => {
-      await this.model.insert(ctx.params.id).then(function(data) {
-        ctx.body = data;
-        next();
-      });
-    });
-
-    this.router.put('/:id', async (ctx, next) => {
-      ctx.body = 'Yubin! yummm';
-      next();
-    });
-
-    this.router.del('/:id', async (ctx, next) => {
-      ctx.body = 'Yeah!';
-      next();
-    });
+router.post('/', async (ctx, next) => {
+  console.log('ctx.request.body', ctx.request.body);
+  if(ctx.request.body && ctx.request.body.length) {
 
   }
+  await location.set(ctx.request.body).then((snapshot) => {
+    ctx.body = snapshot.val();
+    return snapshot.val();
+  }, error => {
+    ctx.status = 500;
+    ctx.body = error;
+    return next();
+  });
+});
 
-}
+router.put('/:id', async (ctx, next) => {
+  await location.child(id).update(value).then((snapshot) => {
+    return snapshot.val();
+  }, error => {
+    ctx.status = 500;
+    ctx.body = error;
+    return next();
+  });
+});
+
+router.del('/:id', async (ctx, next) => {
+  await location.child(id).remove(value).then((snapshot) => {
+    return snapshot.val();
+  }, error => {
+    ctx.status = 500;
+    ctx.body = error;
+    return next();
+  });
+});
+
+export default router;

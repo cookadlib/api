@@ -1,7 +1,5 @@
 {
   "plugins": [
-    "babel-plugin-transform-decorators-legacy",
-    "transform-class-properties",
     "transform-async-to-generator",
     ["transform-runtime", {
       "polyfill": false,
@@ -10,8 +8,7 @@
   ],
   "presets": [
     "es2015",
-    "stage-0",
-    "stage-1"
+    "stage-0"
   ],
   "ignore": [
     "node_modules/**/*.js",

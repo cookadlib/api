@@ -3,9 +3,7 @@
     "NODE_ENV": "development"
   },
   "execMap": {
-    "js": "node --harmony",
-    "py": "python",
-    "rb": "ruby"
+    "js": "node --harmony"
   },
   "ext": "js json",
   "ignore": [
@@ -18,9 +16,7 @@
     "/node_modules/",
     "/bower_components/",
     "/reference/",
-    "/test/",
-    "/.*",
-    "/*.*"
+    "/test/"
   ],
   "restartable": "rs",
   "verbose": true

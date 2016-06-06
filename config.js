@@ -1,6 +1,9 @@
 export const googleApisKey = 'AIzaSyDgKIwWkoMwhRb6qwv2wkZ62UKDrKEgmcw';
-export const serviceAccountPath = '/Users/karl/Library/Mobile Documents/com~apple~CloudDocs/Credentials/Google/gatherer@cookadlib-2016.iam.gserviceaccount.com/cookadlib-c1b63c8b161c.json';
-export const databaseURL = 'https://cookadlib-2016.firebaseio.com/';
+
+export const firebase = {
+  databaseURL: 'https://cookadlib-2016.firebaseio.com/',
+  serviceAccountCredentialsPath: '/Users/karl/Library/Mobile Documents/com~apple~CloudDocs/Credentials/Google/gatherer@cookadlib-2016.iam.gserviceaccount.com/cookadlib-c1b63c8b161c.json'
+}
 
 export const mysql = {
   client: 'mysql',
