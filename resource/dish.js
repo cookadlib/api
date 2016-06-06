@@ -1,0 +1,10 @@
+import Database from '../database/adaptor/firebase';
+
+export default class Dish extends Database {
+
+  constructor(config) {
+    super(config);
+    this.ref = this.db.ref('dish');
+  }
+
+}

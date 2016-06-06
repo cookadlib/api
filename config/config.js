@@ -1,8 +1,6 @@
-import * as config from '../config';
-
 export default class Config {
 
-  constructor() {
+  constructor(config) {
     this.config = config;
   }
 
