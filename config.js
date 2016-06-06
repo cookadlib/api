@@ -2,6 +2,17 @@ export const googleApisKey = 'AIzaSyDgKIwWkoMwhRb6qwv2wkZ62UKDrKEgmcw';
 export const serviceAccountPath = '/Users/karl/Library/Mobile Documents/com~apple~CloudDocs/Credentials/Google/gatherer@cookadlib-2016.iam.gserviceaccount.com/cookadlib-c1b63c8b161c.json';
 export const databaseURL = 'https://cookadlib-2016.firebaseio.com/';
 
+export const mysql = {
+  client: 'mysql',
+  connection: {
+    host     : '127.0.0.1',
+    user     : 'your_database_user',
+    password : 'your_database_password',
+    database : 'myapp_test',
+    charset  : 'utf8'
+  }
+};
+
 export const nodemw = {
   // protocol: 'https',  // default to 'http'
   server: 'en.wikipedia.org', // host name of MediaWiki-powered site

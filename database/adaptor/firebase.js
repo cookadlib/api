@@ -1,10 +1,10 @@
+import {container, singleton} from 'needlepoint';
+
 import firebase from 'firebase';
 
-import Config from '../../config/config';
-
-class Firebase extends Config {
-  constructor(config) {
-    super(config);
+@singleton
+class Firebase {
+  constructor() {
     this.configureDatabase();
   }
 
@@ -16,6 +16,8 @@ class Firebase extends Config {
     });
 
     this.db = this.app.database();
+
+    this.ref = this.db.ref(this.config.term);
   }
 
   async ref(id) {
@@ -31,8 +33,6 @@ class Firebase extends Config {
   }
 
   async findById(id) {
-    // console.log('oiiiid', id);
-    // console.log('this.ref', this.ref);
     await this.ref.child(id).on('value').then((snapshot) => {
       console.log(snapshot.val());
       return snapshot.val();
@@ -43,13 +43,24 @@ class Firebase extends Config {
   }
 
   async find(query) {
-    await this.ref.orderByChild(query).on('value').then((snapshot) => {
-      console.log(snapshot.val());
-      return snapshot.val();
-    }, (error) => {
-      console.error(error);
-      return error;
-    });
+    if (query) {
+      await this.ref.orderByChild(query).on('value').then((snapshot) => {
+        console.log(snapshot.val());
+        return snapshot.val();
+      }, (error) => {
+        console.error(error);
+        return error;
+      });
+    } else {
+      await this.ref.on('value').then((snapshot) => {
+        console.log(snapshot.val());
+        return snapshot.val();
+      }, (error) => {
+        console.error(error);
+        return error;
+      });
+
+    }
   }
 
   async findOne(query) {

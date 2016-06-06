@@ -1,10 +1,11 @@
 import Database from '../database/adaptor/firebase';
 
-export default class Recipe extends Database {
+export default class Query extends Database {
 
   constructor(config) {
+    config.term = 'query';
+
     super(config);
-    this.ref = this.db.ref('recipe');
   }
 
 }

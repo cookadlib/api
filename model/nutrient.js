@@ -1,10 +1,11 @@
 import Database from '../database/adaptor/firebase';
 
-export default class Query extends Database {
+export default class Nutrient extends Database {
 
   constructor(config) {
+    config.term = 'nutrient';
+
     super(config);
-    this.ref = this.db.ref('query');
   }
 
 }
