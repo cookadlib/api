@@ -1,0 +1,410 @@
+{
+  "Chemical" : {
+    "Element" : {
+      "C" : {
+        "Dietary" : {
+          "Common": true
+        }
+      },
+      "Ca" : {
+        "Dietary" : {
+          "Major": true
+        }
+      },
+      "Fe" : {
+        "Dietary" : {
+          "Trace": true
+        }
+      },
+      "B" : {
+        "Dietary" : {
+          "Ultratrace": true
+        }
+      },
+    },
+    "Formula" : {
+      "H2O" : {
+
+      },
+      "C27H44O" : {
+        "Vitamin" : {
+          "D3" : true
+        }
+      }
+    },
+    "Vitamin" : {
+      "D3" : {
+        "Formula" : "C27H44O",
+        "Source" : "Symbiosis/Lichen"
+      }
+    }
+  },
+  "Cuisine" : {
+    "Italian" : {
+      "Region" : [
+        "Italy"
+      ]
+    }
+  },
+  "Diet" : {
+    "Vegetarian" : {
+      "Exclude" : [
+        "Species/Animal"
+      ]
+    },
+    "Pescatarian" : {
+      "Exclude" : [
+        "Species/Animal"
+      ],
+      "Include" : [
+        "Species/Group/Animal/Fish"
+      ]
+    },
+    "Halal" : {
+      "Exclude" : [
+        "Species/Animal/Taxonomy/Pig",
+        "Species/Animal/Product/Blood",
+        "Chemical/Compound/Alcohol"
+      ],
+      "Include" : [
+        "Diet/Kashrut"
+      ]
+    },
+    "Kashrut" : {
+      "Exclude" : [
+        "Species/Animal/Species/Pig",
+        "Species/Animal/Grouping/Shellfish",
+        "Chemical/Compound/Alcohol"
+      ],
+      "Include" : [
+        "Diet/Kashrut"
+      ]
+    }
+  },
+  "Food" : {
+    "Group" : {
+      "Dairy" : {
+
+      },
+      "Fruits" : {
+
+      },
+      "Grains, beans and legumes" : {
+        "Grains" : {
+
+        },
+        "Beans" : {
+
+        },
+        "Legumes" : {
+
+        }
+      },
+      "Meat" : {
+
+      },
+      "Confections" : {
+
+      },
+      "Vegetables" : {
+
+      },
+      "Water" : {
+
+      }
+    },
+    "Type" : {
+      "Pasta" : {
+
+      },
+      "Sauce" : {
+
+      },
+      "Soup" : {
+
+      }
+    }
+  },
+  "Method" : {
+    "Slaughter" : {
+      "Description" : "Lorem ipsum"
+    },
+    "Dhabihah" : {
+      "Derivative" : [
+        "Slaughter"
+      ],
+      "Description" : "Dhabīḥah (or zabiha, Arabic: ذَبِيْحَة‎‎ dhabīḥah IPA: [ðæˈbiːħɐ], 'slaughter'(noun)) is, in Islamic law, the prescribed method of ritual slaughter of all lawful halal animals (goats, sheep, cows, chicken) excluding locusts, fish, and most sea-life."
+    },
+    "Cut" : {
+      "Description" : "Lorem ipsum"
+    },
+    "Chop" : {
+      "Derivative" : [
+        "Cut"
+      ],
+      "Description" : "Lorem ipsum"
+    },
+    "Bake" : {
+      "Derivative" : [
+        "Cook"
+      ]
+    },
+    "Top and tail" : {
+      "Derivative" : [
+        "Cut"
+      ],
+    },
+    "Extrude" : {
+      "Derivative" : [
+        "Cut",
+        "Press"
+      ]
+    }
+  },
+  "Preparation" : {
+    "Ketchup" : {
+      "Cuisine" : [
+        "Chinese",
+        "Malaysian",
+        "Singaporean",
+        "British",
+        "American"
+      ]
+    },
+    "Tomato paste" : {
+      "Type" : "Food/Type/Sauce",
+      "Cuisine" : [
+        "Italian",
+        "French",
+        "Spanish"
+      ],
+      "Ingredient" : [
+        "Species/Tomato",
+        "garlic",
+        "onion"
+      ],
+      "Instruction" : {
+
+      }
+    },
+    "Tomato purée" : {
+      "Type" : "Food/Type/Sauce",
+      "Cuisine" : [
+        "Italian",
+        "French",
+        "Spanish"
+      ],
+      "Ingredient" : [
+        "Species/Tomato",
+        "garlic",
+        "onion"
+      ],
+      "Instruction" : {
+
+      }
+    },
+    "Tomato sauce" : {
+      "Type" : "Food/Type/Sauce",
+      "Cuisine" : [
+        "Italian",
+        "French",
+        "Spanish"
+      ],
+      "Ingredient" : [
+        "Species/Tomato",
+        "garlic",
+        "onion"
+      ],
+      "Instruction" : {
+
+      }
+    },
+    "Passata di pomodoro" : {
+      "Type" : "Food/Type/Sauce",
+      "Cuisine" : [
+        "Italian"
+      ],
+      "Ingredient" : [
+        "Species/Tomato",
+        "garlic",
+        "onion"
+      ],
+      "Instruction" : {
+
+      }
+    },
+    "Marinara sauce" : {
+      "Type" : "Food/Type/Sauce",
+      "Cuisine" : [
+        "Neapolitan"
+      ],
+      "Ingredient" : [
+        "Species/Tomato",
+        "garlic",
+        "onion"
+      ],
+      "Instruction" : {
+
+      }
+    },
+    "Arrabiata" : {
+      "Type" : "Food/Type/Sauce",
+      "Cuisine" : [
+        "Italy"
+      ],
+      "Ingredient" : [
+        "tomato"
+      ],
+      "Instruction" : {
+
+      }
+    },
+    "Penne Arrabiata" : {
+      "Type" : "Food/Type/Pasta",
+      "Cuisine" : [
+        "Italy"
+      ],
+      "Ingredient" : [
+        "Preparation/Arrabiata"
+      ],
+      "Instruction" : {
+
+      }
+    }
+  },
+  "Product" : {
+    "<ID>" : {
+      "Name" : "Tomato Ketchup",
+      "Manufacturer" : "Heinz",
+      "Type" : "Ketchup",
+      "Ingredient" : [
+        "Chemical/Element/Potassium",
+        "Chemical/Element/Magnesium",
+        "Chemical/Vitamin/K",
+      ],
+      "Nutrition" : [
+        "Chemical/Element/Potassium",
+        "Chemical/Element/Magnesium",
+        "Chemical/Vitamin/K",
+        "Chemical/Vitamin/B/5"
+      ]
+    }
+  },
+  "Query" : {
+    "<ID>" : {
+      "Type" : "ingredient",
+      "Term" : "orange",
+      "Result" : {
+        "Term" : "Oranges",
+        "kgid" : "kg:/m/0cyhj_",
+        "resultScore" : 60.914623,
+        "updated" : 1464951236949
+      }
+    }
+  },
+  "Species" : {
+    "Solanum lycopersicum" : {
+      "Scientific classification" : {
+        "Kingdom" :	{
+          "title" : "Plantae"
+        },
+        "(unranked)" :	{
+          "title" : "Angiosperms"
+        },
+        "(unranked)" :	{
+          "title" : "Eudicots"
+        },
+        "(unranked)" :	{
+          "title" : "Asterids"
+        },
+        "Order" :	{
+          "title" : "Solanales"
+        },
+        "Family" :	{
+          "title" : "Solanaceae",
+          "reference" : "#cite_note-renatovicario-1"
+        },
+        "Genus" :	{
+          "title" : "Solanum",
+          "reference" : "#cite_note-renatovicario-1"
+        },
+        "Species" :	{
+          "title" : "S. lycopersicum"
+        }
+      },
+      "Synonym (taxonomy)" : [
+        {
+          "i" : "Lycopersicon lycopersicum",
+          "small" : "(L.) H. Karst."
+        },
+        {
+          "i" : "Lycopersicon esculentum",
+          "small" : "Mill.",
+          "reference" : "#cite_ref-NHM_3"
+        }
+      ],
+      "Content" : [
+        "Chemical/Element/Potassium",
+        "Chemical/Element/Magnesium",
+        "Chemical/Vitamin/K",
+      ]
+    },
+    "Sus scrofa domesticus" : {
+      "Scientific classification" : {
+        "Kingdom" : 	"Animalia",
+        "Phylum" : 	"Chordata",
+        "Class" : 	"Mammalia",
+        "Order" : 	"Artiodactyla",
+        "Family" : 	"Suidae",
+        "Genus" : 	"Sus",
+        "Species" : 	"S. scrofa",
+        "Subspecies" : 	"S. s. domesticus"
+      },
+      "Synonym (taxonomy)" : [
+        {
+          "i" : "Lycopersicon lycopersicum",
+          "small" : "(L.) H. Karst."
+        },
+        {
+          "i" : "Lycopersicon esculentum",
+          "small" : "Mill.",
+          "reference" : "#cite_ref-NHM_3"
+        }
+      ],
+      "Content" : [
+        "Chemical/Element/Potassium",
+        "Chemical/Element/Magnesium",
+        "Chemical/Vitamin/K",
+      ]
+    }
+  },
+  "Symbiosis" : {
+    "Letharia vulpina" : {
+      "Mycobiont" : {
+        "Species" : "Letharia vulpina"
+      },
+      "Phycobiont" : {
+        "Genus" : "Trebouxia"
+      }
+    }
+  },
+  "User" : {
+    "Name" : {
+      "Given" : "John",
+      "Family" : "Smith",
+      "Order" : "First, Last",
+      "Username" : "johnsmith73"
+    },
+    "Recipe" : {
+      "John's Spicy Arrabiata" : {
+        "Type" : "Preparation/Arrabiata",
+      },
+      "Smithie's Blue Ketchup" : {
+        "Type" : "Preparation/Tomato Ketchup",
+      }
+    },
+    "Comment" : {
+
+    }
+  }
+}
