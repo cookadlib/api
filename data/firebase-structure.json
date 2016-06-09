@@ -4,6 +4,17 @@
       "C" : {
         "Dietary" : {
           "Common": true
+        },
+        "translation" : {
+          "en" : {
+            "text" : "Carbon"
+          },
+          "zh_HANS" : {
+            "text" : "Carbon"
+          },
+          "zh_HANT" : {
+            "text" : "Carbon"
+          }
         }
       },
       "Ca" : {
@@ -20,7 +31,7 @@
         "Dietary" : {
           "Ultratrace": true
         }
-      },
+      }
     },
     "Formula" : {
       "H2O" : {
@@ -125,12 +136,24 @@
       }
     }
   },
+  "Language" : {
+    "language-codes" : [
+      {
+        "<placeholder>" : true
+      }
+    ],
+    "ietf-language-tags" : [
+      {
+        "<placeholder>" : true
+      }
+    ]
+  },
   "Method" : {
     "Slaughter" : {
       "Description" : "Lorem ipsum"
     },
     "Dhabihah" : {
-      "Derivative" : [
+      "Basis" : [
         "Slaughter"
       ],
       "Description" : "Dhabīḥah (or zabiha, Arabic: ذَبِيْحَة‎‎ dhabīḥah IPA: [ðæˈbiːħɐ], 'slaughter'(noun)) is, in Islamic law, the prescribed method of ritual slaughter of all lawful halal animals (goats, sheep, cows, chicken) excluding locusts, fish, and most sea-life."
@@ -139,26 +162,83 @@
       "Description" : "Lorem ipsum"
     },
     "Chop" : {
-      "Derivative" : [
+      "Basis" : [
         "Cut"
       ],
       "Description" : "Lorem ipsum"
     },
     "Bake" : {
-      "Derivative" : [
+      "Basis" : [
         "Cook"
       ]
     },
     "Top and tail" : {
-      "Derivative" : [
+      "Basis" : [
         "Cut"
-      ],
+      ]
     },
     "Extrude" : {
-      "Derivative" : [
+      "Basis" : [
         "Cut",
         "Press"
       ]
+    }
+  },
+  "Nutrition": {
+    "macronutrient": {
+      "description": "Macronutrients provide the bulk energy an organism's metabolic system needs to function.  Macronutrients are converted to, and used for, energy.",
+      "type": {
+        "fat": {
+          "<placeholder>" : true
+        },
+        "protein": {
+          "<placeholder>" : true
+        },
+        "carbohydrate": {
+          "<placeholder>" : true
+        }
+      }
+    },
+    "micronutrient": {
+      "description": "Micronutrients provide the necessary cofactors for metabolism to be carried out.  Micronutrients are used to build and repair tissues and to regulate body processes.",
+      "type": {
+        "fat": {
+          "<placeholder>" : true
+        },
+        "protein": {
+          "<placeholder>" : true
+        },
+        "carbohydrate": {
+          "<placeholder>" : true
+        }
+      }
+    },
+    "energy": {
+      "<placeholder>" : true
+    },
+    "carbohydrate": {
+      "description": "Lorem ipsum",
+      "type": {
+        "sugar": {
+          "monosaccharide": {
+            "<placeholder>" : true
+          },
+          "disaccharide": {
+            "description": "Lorem ipsum",
+            "type": {
+              "sucrose": {
+                "description": "Lorem ipsum"
+              },
+              "fructose": {
+                "description": "Lorem ipsum"
+              }
+            }
+          }
+        },
+        "dietaryFibre": {
+          "<placeholder>" : true
+        }
+      }
     }
   },
   "Preparation" : {
@@ -200,7 +280,7 @@
         "onion"
       ],
       "Instruction" : {
-
+        "<placeholder>" : true
       }
     },
     "Tomato sauce" : {
@@ -216,7 +296,7 @@
         "onion"
       ],
       "Instruction" : {
-
+        "<placeholder>" : true
       }
     },
     "Passata di pomodoro" : {
@@ -230,7 +310,7 @@
         "onion"
       ],
       "Instruction" : {
-
+        "<placeholder>" : true
       }
     },
     "Marinara sauce" : {
@@ -244,7 +324,7 @@
         "onion"
       ],
       "Instruction" : {
-
+        "<placeholder>" : true
       }
     },
     "Arrabiata" : {
@@ -256,7 +336,7 @@
         "tomato"
       ],
       "Instruction" : {
-
+        "<placeholder>" : true
       }
     },
     "Penne Arrabiata" : {
@@ -268,7 +348,7 @@
         "Preparation/Arrabiata"
       ],
       "Instruction" : {
-
+        "<placeholder>" : true
       }
     }
   },
@@ -280,7 +360,7 @@
       "Ingredient" : [
         "Chemical/Element/Potassium",
         "Chemical/Element/Magnesium",
-        "Chemical/Vitamin/K",
+        "Chemical/Vitamin/K"
       ],
       "Nutrition" : [
         "Chemical/Element/Potassium",
@@ -346,7 +426,7 @@
       "Content" : [
         "Chemical/Element/Potassium",
         "Chemical/Element/Magnesium",
-        "Chemical/Vitamin/K",
+        "Chemical/Vitamin/K"
       ]
     },
     "Sus scrofa domesticus" : {
@@ -374,7 +454,7 @@
       "Content" : [
         "Chemical/Element/Potassium",
         "Chemical/Element/Magnesium",
-        "Chemical/Vitamin/K",
+        "Chemical/Vitamin/K"
       ]
     }
   },
@@ -389,22 +469,24 @@
     }
   },
   "User" : {
-    "Name" : {
-      "Given" : "John",
-      "Family" : "Smith",
-      "Order" : "First, Last",
-      "Username" : "johnsmith73"
-    },
-    "Recipe" : {
-      "John's Spicy Arrabiata" : {
-        "Type" : "Preparation/Arrabiata",
+    "<ID>" : {
+      "Name" : {
+        "Given" : "John",
+        "Family" : "Smith",
+        "Order" : "First, Last",
+        "Username" : "johnsmith73"
       },
-      "Smithie's Blue Ketchup" : {
-        "Type" : "Preparation/Tomato Ketchup",
+      "Recipe" : {
+        "John's Spicy Arrabiata" : {
+          "Type" : "Preparation/Arrabiata"
+        },
+        "Smithie's Blue Ketchup" : {
+          "Type" : "Preparation/Tomato Ketchup"
+        }
+      },
+      "Comment" : {
+        "<placeholder>" : true
       }
-    },
-    "Comment" : {
-
     }
   }
 }
