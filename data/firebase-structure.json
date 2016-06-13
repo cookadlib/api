@@ -675,12 +675,21 @@
   },
   "user" : {
     "<ID>" : {
+      "status" : 3,
       "name" : {
         "given" : "John",
         "family" : "Smith",
         "order" : "First, Last",
         "username" : "johnsmith73"
       },
+      "join-date" : "<TIMESTAMP>",
+      "group" : [
+        {
+          "vegan" : {
+            "join-date" : "<TIMESTAMP>"
+          }
+        }
+      ],
       "recipe" : {
         "johns-spicy-arrabiata" : {
           "name" : "John's Spicy Arrabiata",
